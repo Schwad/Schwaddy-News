@@ -570,3 +570,185 @@ Processing by StoriesController#index as HTML
   [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories"[0m
   Rendered stories/index.html.erb within layouts/application (2.3ms)
 Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "stories"[0m
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 31]]
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 32]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 33]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 34]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 35]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 36]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 37]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 38]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 39]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 40]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 41]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 42]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 43]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 44]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 45]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 46]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 47]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 48]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 49]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 50]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 51]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 52]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 53]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 54]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 55]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 56]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 57]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 58]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 59]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 60]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "7 Rejections"], ["href", "https://medium.com/@bchesky/7-rejections-7d894cbaa084"], ["points_text", "219 points"], ["created_at", "2015-07-12 22:18:10.284678"], ["updated_at", "2015-07-12 22:18:10.284678"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["source", "Toast"], ["href", "http://www.antipope.org/charlie/blog-static/fiction/toast/toast-intro.html"], ["points_text", "83 points"], ["created_at", "2015-07-12 22:18:10.288639"], ["updated_at", "2015-07-12 22:18:10.288639"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "Elio Motors is crowdfunding its entire $25M investment round"], ["href", "https://www.startengine.com/startup/elio-motors"], ["points_text", "53 points"], ["created_at", "2015-07-12 22:18:10.291462"], ["updated_at", "2015-07-12 22:18:10.291462"]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["source", "Two more Flash 0-days emerge in Hacking Team leak"], ["href", "http://www.theregister.co.uk/2015/07/12/adobe_flash_zero_day_cve_2015_5122/"], ["points_text", "88 points"], ["created_at", "2015-07-12 22:18:10.303518"], ["updated_at", "2015-07-12 22:18:10.303518"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "The rise of the new Crypto War"], ["href", "http://www.dailydot.com/politics/encryption-crypto-war-james-comey-fbi-privacy"], ["points_text", "68 points"], ["created_at", "2015-07-12 22:18:10.306810"], ["updated_at", "2015-07-12 22:18:10.306810"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["source", "SpaceProbes"], ["href", "http://spaceprob.es/"], ["points_text", "215 points"], ["created_at", "2015-07-12 22:18:10.309409"], ["updated_at", "2015-07-12 22:18:10.309409"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "Tunneling Data and Commands Over DNS to Bypass Firewalls"], ["href", "https://zeltser.com/c2-dns-tunneling/"], ["points_text", "30 points"], ["created_at", "2015-07-12 22:18:10.312003"], ["updated_at", "2015-07-12 22:18:10.312003"]]
+  [1m[36m (1.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["source", "Using Emacs and Git with Magit 2.1"], ["href", "http://lwn.net/Articles/649535/"], ["points_text", "98 points"], ["created_at", "2015-07-12 22:18:10.315423"], ["updated_at", "2015-07-12 22:18:10.315423"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "Two Cheers for the Middle Ages"], ["href", "http://www.nybooks.com/articles/archives/2015/jul/09/two-cheers-middle-ages/"], ["points_text", "40 points"], ["created_at", "2015-07-12 22:18:10.318222"], ["updated_at", "2015-07-12 22:18:10.318222"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["source", "Enigma: Decentralized Computation Platform with Guaranteed Privacy [pdf]"], ["href", "http://enigma.media.mit.edu/enigma_full.pdf"], ["points_text", "56 points"], ["created_at", "2015-07-12 22:18:10.321024"], ["updated_at", "2015-07-12 22:18:10.321024"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "Translating Haskell to C++ metaprogramming"], ["href", "http://www.vandenoever.info/blog/2015/07/12/translating-haskell-to-c++.html"], ["points_text", "3 points"], ["created_at", "2015-07-12 22:18:10.323684"], ["updated_at", "2015-07-12 22:18:10.323684"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["source", "Infiniverse"], ["href", "http://play.infiniverse-game.com/"], ["points_text", "78 points"], ["created_at", "2015-07-12 22:18:10.326370"], ["updated_at", "2015-07-12 22:18:10.326370"]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "Singleton Pattern in Go"], ["href", "http://marcio.io/2015/07/singleton-pattern-in-go/"], ["points_text", "85 points"], ["created_at", "2015-07-12 22:18:10.329025"], ["updated_at", "2015-07-12 22:18:10.329025"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["source", "Education, Intelligence, and Attitude Extremity (2012)"], ["href", "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2145529"], ["points_text", "12 points"], ["created_at", "2015-07-12 22:18:10.332186"], ["updated_at", "2015-07-12 22:18:10.332186"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "Show HN: Cointrol – Bitcoin trading bot written in Python"], ["href", "https://github.com/jkbrzt/cointrol"], ["points_text", "38 points"], ["created_at", "2015-07-12 22:18:10.335120"], ["updated_at", "2015-07-12 22:18:10.335120"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["source", "A Memorandum to the  Government of India (1955)"], ["href", "http://indiapolicy.org/debate/Notes/friedman.htm"], ["points_text", "26 points"], ["created_at", "2015-07-12 22:18:10.338066"], ["updated_at", "2015-07-12 22:18:10.338066"]]
+  [1m[35m (1.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "What Is the Truck Factor of Popular GitHub Applications?"], ["href", "http://mtov.github.io/Truck-Factor/?"], ["points_text", "57 points"], ["created_at", "2015-07-12 22:18:10.341341"], ["updated_at", "2015-07-12 22:18:10.341341"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["source", "Profile of The Awl"], ["href", "http://www.theverge.com/2015/7/9/8908279/the-awl-profile-choire-sicha-john-herrman-matt-buchanan?"], ["points_text", "20 points"], ["created_at", "2015-07-12 22:18:10.344188"], ["updated_at", "2015-07-12 22:18:10.344188"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "Life Without Parole: Inside the secretive world of parole boards"], ["href", "https://www.themarshallproject.org/2015/07/10/life-without-parole"], ["points_text", "27 points"], ["created_at", "2015-07-12 22:18:10.347172"], ["updated_at", "2015-07-12 22:18:10.347172"]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["source", "Interview: David Byrne"], ["href", "http://www.ft.com/cms/s/2/93b77c12-24e8-11e5-9c4e-a775d2b173ca.html"], ["points_text", "31 points"], ["created_at", "2015-07-12 22:18:10.350515"], ["updated_at", "2015-07-12 22:18:10.350515"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "The biggest leak of TTIP documents yet: more than 100 confidential papers"], ["href", "https://www.reddit.com/r/europe/comments/3d0ftu/this_is_the_biggest_leak_of_ttip_documents_yet/"], ["points_text", "56 points"], ["created_at", "2015-07-12 22:18:10.353236"], ["updated_at", "2015-07-12 22:18:10.353236"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["source", "Virtual reality porn and the future of loneliness"], ["href", "http://techcrunch.com/2015/07/11/virtual-reality-porn-and-the-future-of-loneliness/"], ["points_text", "23 points"], ["created_at", "2015-07-12 22:18:10.356186"], ["updated_at", "2015-07-12 22:18:10.356186"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "Modern Doctors’ House Calls: Skype Chat and Fast Diagnosis"], ["href", "http://www.nytimes.com/2015/07/12/health/modern-doctors-house-calls-skype-chat-and-fast-diagnosis.html?hp&action=click&pgtype=Homepage&module=first-column-region&region=top-news&WT.nav=top-news"], ["points_text", "18 points"], ["created_at", "2015-07-12 22:18:10.359056"], ["updated_at", "2015-07-12 22:18:10.359056"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["source", "Immutable annotations for Java"], ["href", "http://immutables.github.io/"], ["points_text", "89 points"], ["created_at", "2015-07-12 22:18:10.361997"], ["updated_at", "2015-07-12 22:18:10.361997"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "Bird’s-Eye-View of Largest Floating Structure Ever Built"], ["href", "http://gcaptain.com/prelude-flng-taking-shape-birds-eye-view-of-largest-floating-structure-ever-built"], ["points_text", "29 points"], ["created_at", "2015-07-12 22:18:10.365024"], ["updated_at", "2015-07-12 22:18:10.365024"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["source", "Streamus updated to be compliant with YouTube terms of service"], ["href", "https://github.com/MeoMix/StreamusChromeExtension/releases/tag/v0.177"], ["points_text", "41 points"], ["created_at", "2015-07-12 22:18:10.367906"], ["updated_at", "2015-07-12 22:18:10.367906"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "Austin's First Electric Streetcar Era (2013)"], ["href", "https://notevenpast.org/austins-first-electric-streetcar-era/?"], ["points_text", "37 points"], ["created_at", "2015-07-12 22:18:10.370994"], ["updated_at", "2015-07-12 22:18:10.370994"]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["source", "Letter of Recommendation: Hangovers"], ["href", "http://www.nytimes.com/2015/07/12/magazine/letter-of-recommendation-hangovers.html"], ["points_text", "5 points"], ["created_at", "2015-07-12 22:18:10.374106"], ["updated_at", "2015-07-12 22:18:10.374106"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["source", "API"], ["href", "https://github.com/HackerNews/API"], ["points_text", "23 points"], ["created_at", "2015-07-12 22:18:10.377130"], ["updated_at", "2015-07-12 22:18:10.377130"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("points_text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["points_text", "35 points"], ["created_at", "2015-07-12 22:18:10.380030"], ["updated_at", "2015-07-12 22:18:10.380030"]]
+  [1m[35m (1.4ms)[0m  COMMIT

@@ -7,4 +7,3 @@ desc "This task is called by the Heroku scheduler add-on"
     puts "Updating whole page"
     updates_page
   end
-end

@@ -20,6 +20,17 @@ module ApplicationHelper
     @a = @a.get('https://news.ycombinator.com/')
   end
 
+  def get_y_stories
+    @y_stories = []
+    @a.links_with(:href => /http/).each do |link|
+
+    end
+  end
+
+  def get_y_scores
+    @a.search('span.score').each do |score|
+    end
+  end
 
 
 

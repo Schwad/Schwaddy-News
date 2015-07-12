@@ -12,7 +12,9 @@ module ApplicationHelper
   end
 
   def remove_all
-    Story.destroy_all
+    if Story.all.count > 0
+      Story.destroy_all
+    end
   end
 
   def update_ycombinator

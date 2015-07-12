@@ -752,3 +752,504 @@ Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.5ms)
   [1m[35m (0.2ms)[0m  BEGIN
   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("points_text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["points_text", "35 points"], ["created_at", "2015-07-12 22:18:10.380030"], ["updated_at", "2015-07-12 22:18:10.380030"]]
   [1m[35m (1.4ms)[0m  COMMIT
+
+
+Started GET "/" for ::1 at 2015-07-12 16:18:39 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.4ms)[0m  SELECT "stories".* FROM "stories"
+  Rendered stories/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 69ms (Views: 63.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-12 16:18:39 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-12 16:18:39 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-12 16:18:39 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-12 16:18:39 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-12 16:18:39 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-12 16:18:39 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-12 16:18:39 -0600
+
+
+Started GET "/" for ::1 at 2015-07-12 16:20:41 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (1.8ms)[0m  [1mSELECT "stories".* FROM "stories"[0m
+  Rendered stories/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 57ms (Views: 53.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-12 16:20:41 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-12 16:20:41 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-12 16:20:41 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-12 16:20:41 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-12 16:20:41 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-12 16:20:41 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-12 16:20:41 -0600
+
+
+Started GET "/" for ::1 at 2015-07-12 16:23:02 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories"
+  Rendered stories/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 3400ms (Views: 3398.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-12 16:23:06 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-12 16:23:06 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-12 16:23:06 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-12 16:23:06 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-12 16:23:06 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-12 16:23:06 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-12 16:23:06 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddTypeToStory (20150712225134)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (2.3ms)[0m  [1mALTER TABLE "stories" ADD "type" text[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150712225134"]]
+  [1m[36m (3.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (5.3ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'stories'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "stories"[0m
+  [1m[35mStory Load (2.2ms)[0m  SELECT "stories".* FROM "stories"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (3.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 61]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 62]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 63]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 64]]
+  [1m[35m (1.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 65]]
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 66]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 67]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 68]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 69]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 70]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 71]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 72]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 73]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 74]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 75]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 76]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 77]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 78]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 79]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 80]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 81]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 82]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 83]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 84]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 85]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 86]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 87]]
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 88]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 89]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 90]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (5054.0ms)[0m  [1mDROP DATABASE IF EXISTS "schwaddynews_development"[0m
+PG::ObjectInUse: ERROR:  database "schwaddynews_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+: DROP DATABASE IF EXISTS "schwaddynews_development"
+  [1m[35m (124.0ms)[0m  DROP DATABASE IF EXISTS "schwaddynews_test"
+  [1m[36m (1.8ms)[0m  [1mCREATE DATABASE "schwaddynews_development" ENCODING = 'unicode'[0m
+PG::DuplicateDatabase: ERROR:  database "schwaddynews_development" already exists
+: CREATE DATABASE "schwaddynews_development" ENCODING = 'unicode'
+  [1m[35m (372.9ms)[0m  CREATE DATABASE "schwaddynews_test" ENCODING = 'unicode'
+  [1m[36mSQL (2.7ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (18.4ms)[0m  DROP TABLE "stories" CASCADE
+  [1m[36m (16.2ms)[0m  [1mCREATE TABLE "stories" ("id" serial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "points" integer, "source" text, "points_text" text, "href" text, "type" text) [0m
+  [1m[35m (0.5ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (9.2ms)[0m  CREATE TABLE "stories" ("id" serial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "points" integer, "source" text, "points_text" text, "href" text, "type" text) 
+  [1m[36m (5.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (2.4ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.5ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150712225134')
+  [1m[36m (1.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150712182028')[0m
+  [1m[35m (1.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150712182251')
+  [1m[36m (1.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150712201022')[0m
+  [1m[35m (1.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150712201353')
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "stories"[0m
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "stories"[0m
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "stories"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CorrectType (20150712225805)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.8ms)[0m  [1mALTER TABLE "stories" ADD "originplace" text[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150712225805"]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (4.6ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'stories'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "stories"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (2.4ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "7 Rejections"], ["href", "https://medium.com/@bchesky/7-rejections-7d894cbaa084"], ["points_text", "258 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.027507"], ["updated_at", "2015-07-12 22:59:24.027507"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "Toast"], ["href", "http://www.antipope.org/charlie/blog-static/fiction/toast/toast-intro.html"], ["points_text", "95 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.035052"], ["updated_at", "2015-07-12 22:59:24.035052"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "Translating Haskell to C++ metaprogramming"], ["href", "http://www.vandenoever.info/blog/2015/07/12/translating-haskell-to-c++.html"], ["points_text", "15 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.038160"], ["updated_at", "2015-07-12 22:59:24.038160"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "Two more Flash 0-days emerge in Hacking Team leak"], ["href", "http://www.theregister.co.uk/2015/07/12/adobe_flash_zero_day_cve_2015_5122/"], ["points_text", "101 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.041739"], ["updated_at", "2015-07-12 22:59:24.041739"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "The rise of the new Crypto War"], ["href", "http://www.dailydot.com/politics/encryption-crypto-war-james-comey-fbi-privacy"], ["points_text", "75 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.044662"], ["updated_at", "2015-07-12 22:59:24.044662"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "SpaceProbes"], ["href", "http://spaceprob.es/"], ["points_text", "220 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.047421"], ["updated_at", "2015-07-12 22:59:24.047421"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "Tunneling Data and Commands Over DNS to Bypass Firewalls"], ["href", "https://zeltser.com/c2-dns-tunneling/"], ["points_text", "32 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.050357"], ["updated_at", "2015-07-12 22:59:24.050357"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "Elio Motors is crowdfunding its entire $25M investment round"], ["href", "https://www.startengine.com/startup/elio-motors"], ["points_text", "57 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.053206"], ["updated_at", "2015-07-12 22:59:24.053206"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "Using Emacs and Git with Magit 2.1"], ["href", "http://lwn.net/Articles/649535/"], ["points_text", "102 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.056206"], ["updated_at", "2015-07-12 22:59:24.056206"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "Enigma: Decentralized Computation Platform with Guaranteed Privacy [pdf]"], ["href", "http://enigma.media.mit.edu/enigma_full.pdf"], ["points_text", "59 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.059105"], ["updated_at", "2015-07-12 22:59:24.059105"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "Two Cheers for the Middle Ages"], ["href", "http://www.nybooks.com/articles/archives/2015/jul/09/two-cheers-middle-ages/"], ["points_text", "40 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.061991"], ["updated_at", "2015-07-12 22:59:24.061991"]]
+  [1m[35m (1.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "Infiniverse"], ["href", "http://play.infiniverse-game.com/"], ["points_text", "83 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.065416"], ["updated_at", "2015-07-12 22:59:24.065416"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "Show HN: Cointrol – Bitcoin trading bot written in Python"], ["href", "https://github.com/jkbrzt/cointrol"], ["points_text", "43 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.068344"], ["updated_at", "2015-07-12 22:59:24.068344"]]
+  [1m[35m (1.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "Education, Intelligence, and Attitude Extremity (2012)"], ["href", "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2145529"], ["points_text", "14 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.081979"], ["updated_at", "2015-07-12 22:59:24.081979"]]
+  [1m[36m (1.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "Singleton Pattern in Go"], ["href", "http://marcio.io/2015/07/singleton-pattern-in-go/"], ["points_text", "86 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.085722"], ["updated_at", "2015-07-12 22:59:24.085722"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "A Memorandum to the  Government of India (1955)"], ["href", "http://indiapolicy.org/debate/Notes/friedman.htm"], ["points_text", "27 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.088928"], ["updated_at", "2015-07-12 22:59:24.088928"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "Immutable annotations for Java"], ["href", "http://immutables.github.io/"], ["points_text", "94 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.091894"], ["updated_at", "2015-07-12 22:59:24.091894"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "Profile of The Awl"], ["href", "http://www.theverge.com/2015/7/9/8908279/the-awl-profile-choire-sicha-john-herrman-matt-buchanan?"], ["points_text", "22 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.094867"], ["updated_at", "2015-07-12 22:59:24.094867"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "Virtual reality porn and the future of loneliness"], ["href", "http://techcrunch.com/2015/07/11/virtual-reality-porn-and-the-future-of-loneliness/"], ["points_text", "29 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.097840"], ["updated_at", "2015-07-12 22:59:24.097840"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "Life Without Parole: Inside the secretive world of parole boards"], ["href", "https://www.themarshallproject.org/2015/07/10/life-without-parole"], ["points_text", "29 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.100882"], ["updated_at", "2015-07-12 22:59:24.100882"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "Interview: David Byrne"], ["href", "http://www.ft.com/cms/s/2/93b77c12-24e8-11e5-9c4e-a775d2b173ca.html"], ["points_text", "34 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.103877"], ["updated_at", "2015-07-12 22:59:24.103877"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "What Is the Truck Factor of Popular GitHub Applications?"], ["href", "http://mtov.github.io/Truck-Factor/?"], ["points_text", "59 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.106870"], ["updated_at", "2015-07-12 22:59:24.106870"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "The biggest leak of TTIP documents yet: more than 100 confidential papers"], ["href", "https://www.reddit.com/r/europe/comments/3d0ftu/this_is_the_biggest_leak_of_ttip_documents_yet/"], ["points_text", "63 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.109847"], ["updated_at", "2015-07-12 22:59:24.109847"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "Bird’s-Eye-View of Largest Floating Structure Ever Built"], ["href", "http://gcaptain.com/prelude-flng-taking-shape-birds-eye-view-of-largest-floating-structure-ever-built"], ["points_text", "29 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.112699"], ["updated_at", "2015-07-12 22:59:24.112699"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "Streamus updated to be compliant with YouTube terms of service"], ["href", "https://github.com/MeoMix/StreamusChromeExtension/releases/tag/v0.177"], ["points_text", "43 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.116079"], ["updated_at", "2015-07-12 22:59:24.116079"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "Modern Doctors’ House Calls: Skype Chat and Fast Diagnosis"], ["href", "http://www.nytimes.com/2015/07/12/health/modern-doctors-house-calls-skype-chat-and-fast-diagnosis.html?hp&action=click&pgtype=Homepage&module=first-column-region&region=top-news&WT.nav=top-news"], ["points_text", "13 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.118847"], ["updated_at", "2015-07-12 22:59:24.118847"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "Fish shell 2.2"], ["href", "http://fishshell.com/?version=2.2"], ["points_text", "18 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.121951"], ["updated_at", "2015-07-12 22:59:24.121951"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "Austin's First Electric Streetcar Era (2013)"], ["href", "https://notevenpast.org/austins-first-electric-streetcar-era/?"], ["points_text", "38 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.125143"], ["updated_at", "2015-07-12 22:59:24.125143"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "API"], ["href", "https://github.com/HackerNews/API"], ["points_text", "138 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.127997"], ["updated_at", "2015-07-12 22:59:24.127997"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("points_text", "originplace", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["points_text", "23 points"], ["originplace", "Hacker News"], ["created_at", "2015-07-12 22:59:24.130904"], ["updated_at", "2015-07-12 22:59:24.130904"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for ::1 at 2015-07-12 16:59:43 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (1.3ms)[0m  SELECT "stories".* FROM "stories"
+  Rendered stories/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 109ms (Views: 101.9ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-12 16:59:44 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-12 16:59:44 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-12 16:59:44 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-12 16:59:44 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-12 16:59:44 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-12 16:59:44 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-12 16:59:44 -0600
+
+
+Started GET "/" for ::1 at 2015-07-12 17:00:44 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.7ms)[0m  [1mSELECT "stories".* FROM "stories"[0m
+  Rendered stories/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 56ms (Views: 53.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-12 17:00:45 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-12 17:00:45 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-12 17:00:45 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-12 17:00:45 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-12 17:00:45 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-12 17:00:45 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-12 17:00:45 -0600
+
+
+Started GET "/" for ::1 at 2015-07-12 17:00:56 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories"
+  Rendered stories/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-12 17:00:56 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-12 17:00:56 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-12 17:00:56 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-12 17:00:56 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-12 17:00:56 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-12 17:00:56 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-12 17:00:56 -0600
+
+
+Started GET "/" for ::1 at 2015-07-12 17:01:13 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories"[0m
+  Rendered stories/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-12 17:01:13 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-12 17:01:13 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-12 17:01:13 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-12 17:01:13 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-12 17:01:13 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-12 17:01:13 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-12 17:01:13 -0600
+
+
+Started GET "/" for ::1 at 2015-07-12 17:01:46 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.7ms)[0m  SELECT "stories".* FROM "stories"
+  Rendered stories/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-12 17:01:46 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-12 17:01:46 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-12 17:01:46 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-12 17:01:46 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-12 17:01:46 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-12 17:01:46 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-12 17:01:46 -0600
+
+
+Started GET "/" for ::1 at 2015-07-12 17:02:26 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories"[0m
+  Rendered stories/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-12 17:02:27 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-12 17:02:27 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-12 17:02:27 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-12 17:02:27 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-12 17:02:27 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-12 17:02:27 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-12 17:02:27 -0600

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150712201353) do
+ActiveRecord::Schema.define(version: 20150712225805) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,6 +23,8 @@ ActiveRecord::Schema.define(version: 20150712201353) do
     t.text     "source"
     t.text     "points_text"
     t.text     "href"
+    t.text     "type"
+    t.text     "originplace"
   end
 
 end

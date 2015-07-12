@@ -29,7 +29,8 @@ module ApplicationHelper
       Story.create(
           :source => @y_stories[0][iterator],
           :href => @y_stories[1][iterator],
-          :points_text => @scores[iterator]
+          :points_text => @scores[iterator],
+          :originplace => 'Hacker News'
         )
       iterator += 1
     end

@@ -1,8 +1,10 @@
 <div class="row" style="background-color:#FF6600;">
-  <div class="col-md-3">
-    <h3 style="margin-top:6px;"><strong>Schwaddy News.</strong></h3>
+  <div class="col-md-1" style="width:50px;">
   </div>
-  <div class="col-md-6">
+  <div class="col-md-3">
+    <h3 style="margin-top:6px; margin-left:-50px;"><strong>Schwaddy News.</strong></h3>
+  </div>
+  <div class="col-md-5">
   </div>
   <div class="col-md-3">
     <p style="padding-top:8px;"><%= link_to "Source Code", "http://github.com/Schwad/Schwaddy-News", {:style=>'color:#FFFFFF;'} %> | <%= link_to "Blog", "http://theschwad.tumblr.com", {:style=>'color:#FFFFFF;'} %> | <%= mail_to "nicholas.schwaderer@gmail.com", "Contact", {:style=>'color:#FFFFFF;'} %> | <%= link_to "Donate","https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=J2MJ2TCC7EBXU&lc=US&item_name=PorkCasts&currency_code=USD&bn=PP%2dDonationsBF%3azuhqEnP%2epng%3aNonHosted", {:style=>'color:#FFFFFF;'} %></p>
@@ -12,20 +14,20 @@
 <% @stories.each do |story| %>
   <% unless story.source == nil %>
     <div class="row">
-      <div class="col-md-1">
+      <!-- <div class="col-md-1">
         <h5><%= story.points_text %></h5>
-      </div>
-      <div class="col-md-1">
+      </div> -->
+      <div class="col-md-1" style="width:50px;">
 
 
         <% if story.originplace == "Hacker News" %>
-        <h4 style="margin-left:51px;">
+        <h4 style="margin-left:11px;">
           <%= image_tag("y.gif", size: "20")%>
         <% elsif story.originplace == "Reddit Webdev" %>
-        <h4 style="margin-left:45px;">
+        <h4 style="margin-left:5px;">
           <%= image_tag( "reddit.png", size: "34")%>
         <% elsif story.originplace == "Techmeme"%>
-          <h4 style="margin-left:52px;">
+          <h4 style="margin-left:12px;">
           <%= image_tag( "techmeme.png", size: "20")%>
 
         <% end %>
@@ -51,7 +53,7 @@
         </h4>
     <!--   </div>
       <div class="col-md-2"> -->
-        <span style="color:#828282;">(<%= story.originplace %>)</span>
+        <span style="color:#828282;">(<%= story.originplace %>) <%= story.points_text %></span>
       </div>
 
     </div>

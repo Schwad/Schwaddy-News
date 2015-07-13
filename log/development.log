@@ -10937,3 +10937,1386 @@ Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45c
 
 
 Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 14:58:44 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 14:59:29 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')[0m
+  Rendered stories/index.html.erb within layouts/application (207.0ms)
+Completed 200 OK in 268ms (Views: 261.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 14:59:30 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 14:59:30 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 14:59:30 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 14:59:30 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 14:59:30 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 14:59:30 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 14:59:30 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 14:59:30 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 14:59:30 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 14:59:30 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 14:59:30 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:05:24 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  [1m[35mStory Load (0.7ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')
+  Rendered stories/index.html.erb within layouts/application (143.8ms)
+Completed 200 OK in 215ms (Views: 206.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:05:24 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:05:24 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:05:24 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:05:24 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:05:24 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:05:24 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:05:24 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:05:24 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:05:24 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:05:24 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:05:24 -0600
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "stories"[0m
+  [1m[35mStory Load (0.8ms)[0m  SELECT "stories".* FROM "stories"
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 175]]
+  [1m[35m (1.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 176]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 177]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 178]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 179]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 180]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 181]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 182]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 183]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 184]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 185]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 186]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 187]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 188]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 189]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 190]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 191]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 192]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 193]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 194]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 195]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 196]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 197]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 198]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 199]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 200]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 201]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 202]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 203]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 204]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 205]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 206]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 207]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 208]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 209]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 210]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 211]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 212]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 213]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 214]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 215]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 216]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 217]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 218]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 219]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 220]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 221]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 222]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 223]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 224]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 225]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 226]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 227]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 228]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 229]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 230]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 231]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 232]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 233]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 234]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 235]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 236]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 237]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 238]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 239]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 240]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 241]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 242]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 243]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 244]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 245]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 246]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 247]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 248]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 249]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 250]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 251]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 252]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 253]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 254]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 255]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 256]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 257]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 258]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 259]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 260]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 261]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Pure UI"], ["href", "http://rauchg.com/2015/pure-ui/"], ["points_text", "272 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 10], ["created_at", "2015-07-13 21:05:36.952384"], ["updated_at", "2015-07-13 21:05:36.952384"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "iTerm2 Shell Integration"], ["href", "https://iterm2.com/shell_integration.html"], ["points_text", "62 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 19], ["created_at", "2015-07-13 21:05:36.956549"], ["updated_at", "2015-07-13 21:05:36.956549"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "The Really Big One"], ["href", "http://www.newyorker.com/magazine/2015/07/20/the-really-big-one"], ["points_text", "312 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 7], ["created_at", "2015-07-13 21:05:36.959651"], ["updated_at", "2015-07-13 21:05:36.959651"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Soloshot: Automatically film outdoor activities without a camera operator"], ["href", "http://shop.soloshot.com/"], ["points_text", "279 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 3], ["created_at", "2015-07-13 21:05:36.962856"], ["updated_at", "2015-07-13 21:05:36.962856"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "You cannot start a tweet with “D. Tusk”"], ["href", "https://twitter.com/mitsuhiko/status/620641902770159616?s=09"], ["points_text", "95 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 5], ["created_at", "2015-07-13 21:05:36.966296"], ["updated_at", "2015-07-13 21:05:36.966296"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Show HN: Density – Anonymous infrared people counter"], ["href", "http://www.density.io/?ref=hn"], ["points_text", "191 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 2], ["created_at", "2015-07-13 21:05:36.969425"], ["updated_at", "2015-07-13 21:05:36.969425"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Lessons from Airbnb's 7 Rejections"], ["href", "http://foundersatwork.posthaven.com/7-important-lesson-from-airbnbs-7-rejections"], ["points_text", "46 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 1], ["created_at", "2015-07-13 21:05:36.972418"], ["updated_at", "2015-07-13 21:05:36.972418"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "The Disadvantages of Single Page Applications (2014)"], ["href", "http://adamsilver.io/articles/the-disadvantages-of-single-page-applications/"], ["points_text", "77 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 5], ["created_at", "2015-07-13 21:05:36.975424"], ["updated_at", "2015-07-13 21:05:36.975424"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Day One with the Amazon API Gateway"], ["href", "https://blog.hiramsoftware.com/blog/day-one-aws-api-gateway/index.html"], ["points_text", "17 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 4], ["created_at", "2015-07-13 21:05:36.978334"], ["updated_at", "2015-07-13 21:05:36.978334"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Wargames"], ["href", "http://overthewire.org/wargames/"], ["points_text", "30 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 2], ["created_at", "2015-07-13 21:05:36.981277"], ["updated_at", "2015-07-13 21:05:36.981277"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Wikileaks Global Intelligence File Dump Is Loaded with Malicious Software"], ["href", "http://www.joshwieder.net/2015/03/wikileaks-global-intelligence-file-dump.html"], ["points_text", "66 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 2], ["created_at", "2015-07-13 21:05:36.984098"], ["updated_at", "2015-07-13 21:05:36.984098"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "How Microsoft Bing Censors the Middle East"], ["href", "https://www.eff.org/deeplinks/2015/07/how-microsoft-bing-censors-middle-east"], ["points_text", "69 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 2], ["created_at", "2015-07-13 21:05:36.987079"], ["updated_at", "2015-07-13 21:05:36.987079"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "A rare condition causes a doctor to experience other people's sensations"], ["href", "http://www.psmag.com/health-and-behavior/is-mirror-touch-synesthesia-a-superpower-or-a-curse"], ["points_text", "16 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 1], ["created_at", "2015-07-13 21:05:36.990054"], ["updated_at", "2015-07-13 21:05:36.990054"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "First Java Zero-Day Attack in Two Years Targets NATO and US Defense Organizations"], ["href", "http://blog.trendmicro.com/pawn-storm-first-java-zero-day-attack-in-two-years-targets-nato-us-defense-organizations/"], ["points_text", "178 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 1], ["created_at", "2015-07-13 21:05:36.992985"], ["updated_at", "2015-07-13 21:05:36.992985"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "A look at EarthBound's text system and scripting language (2011)"], ["href", "http://earthboundcentral.com/2011/04/a-look-at-the-mother-2-side/"], ["points_text", "29 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 2], ["created_at", "2015-07-13 21:05:36.996112"], ["updated_at", "2015-07-13 21:05:36.996112"]]
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "We don’t trust drinking fountains anymore, and that’s bad for our health"], ["href", "http://www.washingtonpost.com/opinions/we-dont-trust-drinking-fountains-anymore-and-thats-bad-for-our-health/2015/07/02/24eca9bc-15f0-11e5-9ddc-e3353542100c_story.html"], ["points_text", "11 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 3], ["created_at", "2015-07-13 21:05:36.999636"], ["updated_at", "2015-07-13 21:05:36.999636"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "'Happy Birthday' Hits Sour Notes When It Comes to Song's Free Use"], ["href", "http://www.npr.org/2015/07/12/422327673/happy-birthday-hits-sour-notes-when-it-comes-to-songs-free-use?utm_source=facebook.com&utm_medium=social&utm_campaign=npr&utm_term=nprnews&utm_content=20150712"], ["points_text", "54 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 1], ["created_at", "2015-07-13 21:05:37.002612"], ["updated_at", "2015-07-13 21:05:37.002612"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Willing (YC S15) Makes Estate and Funeral Planning Easier"], ["href", "http://techcrunch.com/2015/07/13/willing/"], ["points_text", "16 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.005520"], ["updated_at", "2015-07-13 21:05:37.005520"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "What's inside Google's new Go app for iOS and Android"], ["href", "https://sourcedna.com/blog/20150712/golang-on-ios.html"], ["points_text", "64 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 1], ["created_at", "2015-07-13 21:05:37.008613"], ["updated_at", "2015-07-13 21:05:37.008613"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Marie Curie’s Research Papers Are Still Radioactive 100+ Years Later"], ["href", "http://www.openculture.com/2015/07/marie-curies-research-papers-are-still-radioactive-100-years-later.html"], ["points_text", "6 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", -2], ["created_at", "2015-07-13 21:05:37.011601"], ["updated_at", "2015-07-13 21:05:37.011601"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Ceramic – Turn Lisp web applications into desktop apps"], ["href", "http://ceramic.github.io/"], ["points_text", "160 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 141], ["created_at", "2015-07-13 21:05:37.014901"], ["updated_at", "2015-07-13 21:05:37.014901"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Before Moby-Dick, There Was “Two Years Before the Mast”"], ["href", "http://www.smithsonianmag.com/arts-culture/before-moby-dick-there-was-two-years-before-the-mast-180955766/?utm_source=twitter.com&no-ist"], ["points_text", "19 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", -6], ["created_at", "2015-07-13 21:05:37.017957"], ["updated_at", "2015-07-13 21:05:37.017957"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Zidisha is hiring a remote engineer"], ["href", "http://p2p-microlending-blog.zidisha.org/2015/06/22/zidisha-is-hiring-a-remote-engineer/"], ["points_text", "8 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.021622"], ["updated_at", "2015-07-13 21:05:37.021622"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Comparison of CSS in JavaScript Libraries for React"], ["href", "https://github.com/FormidableLabs/radium/blob/master/docs/comparison/README.md"], ["points_text", "26 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", -134], ["created_at", "2015-07-13 21:05:37.024663"], ["updated_at", "2015-07-13 21:05:37.024663"]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Two big challenges in machine learning [pdf]"], ["href", "http://icml.cc/2015/invited/LeonBottouICML2015.pdf"], ["points_text", "20 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 12], ["created_at", "2015-07-13 21:05:37.027822"], ["updated_at", "2015-07-13 21:05:37.027822"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Bringing the best of Bash scripting to Ruby"], ["href", "http://radek.io/2015/07/13/ruby-scripting/"], ["points_text", "8 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", -3], ["created_at", "2015-07-13 21:05:37.030742"], ["updated_at", "2015-07-13 21:05:37.030742"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "India and the Circulation of Ideas in the Late Eighteenth Century (2013)"], ["href", "http://mappingbooks.blogspot.com/2013/07/expanding-republic-of-letters-india-and.html"], ["points_text", "12 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", -7], ["created_at", "2015-07-13 21:05:37.033981"], ["updated_at", "2015-07-13 21:05:37.033981"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "A Life on the Rails: The Dedication of Railroad Tourists"], ["href", "http://www.atlasobscura.com/articles/a-life-on-the-rails-the-dedication-of-railroad-tourists"], ["points_text", "25 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["altering_of_the_points", 21], ["created_at", "2015-07-13 21:05:37.037070"], ["updated_at", "2015-07-13 21:05:37.037070"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Pragmatic physically based rendering: Intro"], ["href", "http://marcinignac.com/blog/pragmatic-pbr-intro/"], ["points_text", "8 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.040026"], ["updated_at", "2015-07-13 21:05:37.040026"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Any QA's Here? How is your Testing/Test Plans done?"], ["href", "[\"/r/webdev/comments/3d4p31/any_qas_here_how_is_your_testingtest_plans_done\"]"], ["points_text", "6 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.682159"], ["updated_at", "2015-07-13 21:05:37.682159"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Hackr.io - A huge collection of the best coding tutorials online."], ["href", "[\"http://hackr.io\"]"], ["points_text", "93 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.685050"], ["updated_at", "2015-07-13 21:05:37.685050"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Eloquent Javascript - Awesome online book that teaches JS from a CompSci perspective. Includes live examples"], ["href", "[\"http://eloquentjavascript.net\"]"], ["points_text", "396 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.688118"], ["updated_at", "2015-07-13 21:05:37.688118"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "The Boring Front-end Developer by Adam Silver"], ["href", "[\"http://thebfed.com\"]"], ["points_text", "24 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.691205"], ["updated_at", "2015-07-13 21:05:37.691205"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Overwhelmed by the sheer number of frameworks and lack of an organised ecosystem"], ["href", "[\"/r/webdev/comments/3d5a7e/overwhelmed_by_the_sheer_number_of_frameworks_and\"]"], ["points_text", "13 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.694311"], ["updated_at", "2015-07-13 21:05:37.694311"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "HTTP/2 adoption is still low at 0.4%, but growing fast thanks to LiteSpeed"], ["points_text", "20 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.697338"], ["updated_at", "2015-07-13 21:05:37.697338"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Complex Routing Logic with Thundermole"], ["href", "[\"http://cruft.io/posts/complex-routing-logic-with-thundermole\"]"], ["points_text", "19 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.700468"], ["updated_at", "2015-07-13 21:05:37.700468"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "I let go of a client today."], ["href", "[\"/r/webdev/comments/3d4nva/i_let_go_of_a_client_today\"]"], ["points_text", "12 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.703498"], ["updated_at", "2015-07-13 21:05:37.703498"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "webkitgtk as a service: meet express-dom"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.706549"], ["updated_at", "2015-07-13 21:05:37.706549"]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Grid Style Sheets. The future of the web?"], ["href", "[\"/r/webdev/comments/3d5vxa/grid_style_sheets_the_future_of_the_web\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.710003"], ["updated_at", "2015-07-13 21:05:37.710003"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "PhantomJS as a Service"], ["points_text", "4 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.712984"], ["updated_at", "2015-07-13 21:05:37.712984"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Hackathons Near Me: a new website to help you find hackathons"], ["href", "[\"http://hackathonsnear.me\"]"], ["points_text", "5 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.716234"], ["updated_at", "2015-07-13 21:05:37.716234"]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Become A Command-Line Power User With Oh-My-ZSH And Z"], ["href", "[\"http://www.smashingmagazine.com/2015/07/11/become-command-line-power-user-oh-my-zsh-z\"]"], ["points_text", "2 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.720702"], ["updated_at", "2015-07-13 21:05:37.720702"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Any Websocket protocols / standards that provide similar functionality to REST APIs?"], ["href", "[\"/r/webdev/comments/3d5d0g/any_websocket_protocols_standards_that_provide\"]"], ["points_text", "2 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.723988"], ["updated_at", "2015-07-13 21:05:37.723988"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "I think they desperately want to rank for the keywords \"smart contract\". Most repetitive thing I've ever read."], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.727037"], ["updated_at", "2015-07-13 21:05:37.727037"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "separating website from app store? Viable or just too much work?"], ["href", "[\"/r/webdev/comments/3d66kq/separating_website_from_app_store_viable_or_just\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.730075"], ["updated_at", "2015-07-13 21:05:37.730075"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Since OctoberCMS is finally approaching a stable release, I decided to build a boilerplate for it on Vagrant. I will appreciate any feedback. Enjoy! :)"], ["points_text", "4 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.733095"], ["updated_at", "2015-07-13 21:05:37.733095"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "How can I simulate a slow internet connection for testing out ajax and UI interaction?"], ["href", "[\"/r/webdev/comments/3d62vx/how_can_i_simulate_a_slow_internet_connection_for\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.735996"], ["updated_at", "2015-07-13 21:05:37.735996"]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "I've been given every Front End Dev's dream."], ["href", "[\"/r/webdev/comments/3d62ik/ive_been_given_every_front_end_devs_dream\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.739282"], ["updated_at", "2015-07-13 21:05:37.739282"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Pro tip: You can make debugging animations easier by changing the global animation speed in Chrome Dev tools."], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.742278"], ["updated_at", "2015-07-13 21:05:37.742278"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "A two part series on how to set up a fresh Elementary OS/Ubuntu machine for web development - written on Github repos in their readme.md"], ["points_text", "34 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.745513"], ["updated_at", "2015-07-13 21:05:37.745513"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Pure UI"], ["href", "[\"http://rauchg.com/2015/pure-ui\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.748552"], ["updated_at", "2015-07-13 21:05:37.748552"]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "How do I go about getting my own website + name? I'm trying to make a creative portfolio site. [xpost]"], ["href", "[\"/r/webdev/comments/3d5xah/how_do_i_go_about_getting_my_own_website_name_im\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.751989"], ["updated_at", "2015-07-13 21:05:37.751989"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Excited noob here, do you have 1 piece of advice you would like to give me as I embark on my journey to learn webdev?"], ["href", "[\"/r/webdev/comments/3d5ur6/excited_noob_here_do_you_have_1_piece_of_advice\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.755022"], ["updated_at", "2015-07-13 21:05:37.755022"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Starting my first job in web dev and having symptoms of impostor syndrome, any advice?"], ["href", "[\"/r/webdev/comments/3d2lv3/starting_my_first_job_in_web_dev_and_having\"]"], ["points_text", "29 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.759684"], ["updated_at", "2015-07-13 21:05:37.759684"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Mandrill mail always getting into spam folder"], ["href", "[\"/r/webdev/comments/3d5pzu/mandrill_mail_always_getting_into_spam_folder\"]"], ["points_text", "1 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.762672"], ["updated_at", "2015-07-13 21:05:37.762672"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.765728"], ["updated_at", "2015-07-13 21:05:37.765728"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["originplace", "Reddit Webdev"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.769112"], ["updated_at", "2015-07-13 21:05:37.769112"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["originplace", "Reddit Webdev"], ["is_new", "t"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:37.772060"], ["updated_at", "2015-07-13 21:05:37.772060"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Rackspace partners with Microsoft, extends support from private to public and hybrid Azure clouds"], ["href", "http://www.zdnet.com/article/cloud-firm-rackspace-ramps-up-microsoft-azure-support/"], ["points_text", "16 points"], ["originplace", "Techmeme"], ["is_new", "t"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.162574"], ["updated_at", "2015-07-13 21:05:38.162574"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Walmart launches rival sale to Amazon's Prime Day"], ["href", "http://www.usatoday.com/story/money/2015/07/13/walmart-sale-against-amazon-prime-day/29973997/"], ["points_text", "15 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.165536"], ["updated_at", "2015-07-13 21:05:38.165536"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Hacking Team's CEO promises update to compromised software immediately, completely rebuilt version of Remote Control System this fall"], ["href", "http://threatpost.com/hacking-team-promises-to-rebuild-controversial-surveillance-software/113743"], ["points_text", "14 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.168462"], ["updated_at", "2015-07-13 21:05:38.168462"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Former Reddit CEO says Alexis Ohanian responsible for firing that touched off Reddit revolt, noting a “stunning lack of leadership” in letting Pao take the heat"], ["href", "http://bits.blogs.nytimes.com/2015/07/13/details-emerge-about-victoria-taylors-dismissal-at-reddit/"], ["points_text", "13 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.171712"], ["updated_at", "2015-07-13 21:05:38.171712"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Snapchat adjusts its design to bring more visibility to “Discover” section for news and ads"], ["href", "http://blogs.wsj.com/digits/2015/07/13/snapchat-redesign-puts-spotlight-on-discover-news-portal/"], ["points_text", "12 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.174904"], ["updated_at", "2015-07-13 21:05:38.174904"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Accusing Amazon of Antitrust Violations, Authors and Booksellers Demand U.S. Inquiry"], ["href", "http://www.nytimes.com/2015/07/14/technology/accusing-amazon-of-antitrust-violations-authors-and-booksellers-demand-us-inquiry.html"], ["points_text", "11 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.177917"], ["updated_at", "2015-07-13 21:05:38.177917"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Comcast's Gigabit Pro 2Gbps internet will cost $300/month, up to $1000 in installation and activation fees; early promo rate of $159 a month on 2 year contract"], ["href", "http://www.theverge.com/2015/7/13/8949207/comcast-gigabit-pro-price-300"], ["points_text", "10 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.181058"], ["updated_at", "2015-07-13 21:05:38.181058"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Facebook's security chief Alex Stamos says it's time for Adobe to announce the end-of-life date for Flash"], ["href", "http://www.hotforsecurity.com/blog/facebooks-security-chief-calls-for-adobe-flash-to-be-killed-off-12264.html"], ["points_text", "9 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.184136"], ["updated_at", "2015-07-13 21:05:38.184136"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Nintendo has no plans yet for who will replace Iwata, Genyo Takeda and Shigeru Miyamoto to continue as representative directors"], ["href", "http://blogs.wsj.com/japanrealtime/2015/07/13/shigeru-miyamoto-seen-as-possible-nintendo-successor/"], ["points_text", "8 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.187148"], ["updated_at", "2015-07-13 21:05:38.187148"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "CircleUp Raises $22M To Invest In Consumer Brands On Its Crowdfunding Platform"], ["href", "http://techcrunch.com/2015/07/13/circleup-raises-22m-to-invest-in-consumer-brands-on-its-crowdfunding-platform/"], ["points_text", "7 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.190170"], ["updated_at", "2015-07-13 21:05:38.190170"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Development of anti-surveillance device ProxyHam and its DEF Con talk mysteriously cancelled, existing units destroyed"], ["href", "http://www.csoonline.com/article/2947377/network-security/privacy-talk-at-def-con-canceled-under-questionable-circumstances.html"], ["points_text", "6 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.193181"], ["updated_at", "2015-07-13 21:05:38.193181"]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Microsoft launches Cortana Analytics Suite with Power BI, Azure Machine Learning, and more in a monthly subscription"], ["href", "http://venturebeat.com/2015/07/13/microsoft-launches-cortana-analytics-suite-with-power-bi-azure-machine-learning-and-more-in-a-monthly-subscription/"], ["points_text", "5 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.196597"], ["updated_at", "2015-07-13 21:05:38.196597"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "Microsoft to expand Surface distributor count from ‘couple hundred’ to a few thousand"], ["href", "http://www.zdnet.com/article/microsoft-to-expand-surface-distributor-count-from-couple-hundred-to-a-few-thousand/"], ["points_text", "4 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.200865"], ["updated_at", "2015-07-13 21:05:38.200865"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Java Zero-Day Used in Attacks on NATO Member, US Defense Organization"], ["href", "http://www.securityweek.com/java-zero-day-used-attacks-nato-member-us-defense-organization"], ["points_text", "3 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.204422"], ["updated_at", "2015-07-13 21:05:38.204422"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["source", "China's Tianhe-2 Supercomputer Is Still the World's Most Powerful"], ["href", "http://recode.net/2015/07/13/chinas-tianhe-2-supercomputer-is-still-the-worlds-most-powerful/"], ["points_text", "2 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.207361"], ["updated_at", "2015-07-13 21:05:38.207361"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["source", "Wealthfront markets itself as the anti-Wall Street, but still charges a 0.25% compound fee, far worse than Vanguard VTI's 0.05% fee"], ["href", "http://medium.com/@blakeross/wealthfront-silicon-valley-tech-at-wall-street-prices-fdd2e5f54905"], ["points_text", "1 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.210447"], ["updated_at", "2015-07-13 21:05:38.210447"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("points_text", "originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["points_text", "0 points"], ["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.213763"], ["updated_at", "2015-07-13 21:05:38.213763"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.217185"], ["updated_at", "2015-07-13 21:05:38.217185"]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.220556"], ["updated_at", "2015-07-13 21:05:38.220556"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.223447"], ["updated_at", "2015-07-13 21:05:38.223447"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.226352"], ["updated_at", "2015-07-13 21:05:38.226352"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.229328"], ["updated_at", "2015-07-13 21:05:38.229328"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.232249"], ["updated_at", "2015-07-13 21:05:38.232249"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.235037"], ["updated_at", "2015-07-13 21:05:38.235037"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.237945"], ["updated_at", "2015-07-13 21:05:38.237945"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.240818"], ["updated_at", "2015-07-13 21:05:38.240818"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.243612"], ["updated_at", "2015-07-13 21:05:38.243612"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.246507"], ["updated_at", "2015-07-13 21:05:38.246507"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("originplace", "is_new", "altering_of_the_points", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["originplace", "Techmeme"], ["is_new", "f"], ["altering_of_the_points", 0], ["created_at", "2015-07-13 21:05:38.249474"], ["updated_at", "2015-07-13 21:05:38.249474"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for ::1 at 2015-07-13 15:05:56 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (1.9ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')[0m
+  Rendered stories/index.html.erb within layouts/application (90.0ms)
+Completed 200 OK in 132ms (Views: 125.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:05:57 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:05:57 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:05:57 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:05:57 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:05:57 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:05:57 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:05:57 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:05:57 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:05:57 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:05:57 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:05:57 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:06:38 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')
+  Rendered stories/index.html.erb within layouts/application (85.7ms)
+Completed 200 OK in 131ms (Views: 125.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:06:38 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:06:38 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:06:38 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:06:38 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:06:38 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:06:38 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:06:38 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:06:38 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:06:38 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:06:39 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:06:39 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:06:51 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.7ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (1.0ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')[0m
+  Rendered stories/index.html.erb within layouts/application (118.7ms)
+Completed 200 OK in 169ms (Views: 162.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:06:52 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:06:52 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:06:52 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:06:52 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:06:52 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:06:52 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:06:52 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:06:52 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:06:52 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:06:52 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:06:52 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:07:04 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')
+  Rendered stories/index.html.erb within layouts/application (100.8ms)
+Completed 200 OK in 148ms (Views: 142.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:07:04 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:07:04 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:07:04 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:07:04 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:07:04 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:07:04 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:07:04 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:07:04 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:07:04 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:07:04 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:07:04 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:08:09 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.7ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')[0m
+  Rendered stories/index.html.erb within layouts/application (93.8ms)
+Completed 200 OK in 131ms (Views: 125.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:08:09 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:08:09 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:08:09 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:08:09 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:08:09 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:08:09 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:08:09 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:08:09 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:08:09 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:08:09 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:08:09 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:08:32 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.4ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  [1m[35mStory Load (0.4ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')
+  Rendered stories/index.html.erb within layouts/application (98.1ms)
+Completed 200 OK in 146ms (Views: 142.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:08:32 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:08:32 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:08:32 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:08:32 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:08:32 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:08:32 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:08:32 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:08:32 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:08:32 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:08:32 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:08:32 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:08:38 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')[0m
+  Rendered stories/index.html.erb within layouts/application (101.2ms)
+Completed 200 OK in 144ms (Views: 139.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:08:38 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:08:38 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:08:38 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:08:38 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:08:38 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:08:38 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:08:38 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:08:38 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:08:38 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:08:38 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:08:38 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:08:43 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.9ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')
+  Rendered stories/index.html.erb within layouts/application (98.9ms)
+Completed 200 OK in 144ms (Views: 138.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:08:43 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:08:43 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:08:43 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:08:43 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:08:43 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:08:43 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:08:43 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:08:43 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:08:43 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:08:43 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:08:43 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:09:38 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')[0m
+  Rendered stories/index.html.erb within layouts/application (82.1ms)
+Completed 200 OK in 120ms (Views: 115.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:09:38 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:09:38 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:09:38 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:09:38 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:09:38 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:09:38 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:09:38 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:09:38 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:09:38 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:09:38 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:09:38 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:09:47 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')
+  Rendered stories/index.html.erb within layouts/application (105.0ms)
+Completed 200 OK in 153ms (Views: 148.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:09:47 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:09:47 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:09:47 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:09:48 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:09:48 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:09:48 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:09:48 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:09:48 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:09:48 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:09:48 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:09:48 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:09:53 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.8ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')[0m
+  Rendered stories/index.html.erb within layouts/application (98.2ms)
+Completed 200 OK in 146ms (Views: 139.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:09:54 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:09:54 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:09:54 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:09:54 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:09:54 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:09:54 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:09:54 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:09:54 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:09:54 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:09:54 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:09:54 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:10:02 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')
+  Rendered stories/index.html.erb within layouts/application (109.3ms)
+Completed 200 OK in 156ms (Views: 150.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:10:02 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:10:02 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:10:02 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:10:02 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:10:02 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:10:02 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:10:02 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:10:02 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:10:02 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:10:02 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:10:02 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:10:19 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.7ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')[0m
+  Rendered stories/index.html.erb within layouts/application (87.7ms)
+Completed 200 OK in 139ms (Views: 133.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:10:19 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:10:19 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:10:19 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:10:19 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:10:19 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:10:19 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:10:19 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:10:19 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:10:19 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:10:19 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:10:19 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:10:31 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.7ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')
+  Rendered stories/index.html.erb within layouts/application (104.4ms)
+Completed 200 OK in 150ms (Views: 143.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:10:31 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:10:31 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:10:31 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:10:31 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:10:31 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:10:31 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:10:31 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:10:31 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:10:31 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:10:32 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:10:32 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:33:34 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')[0m
+  Rendered stories/index.html.erb within layouts/application (103.7ms)
+Completed 200 OK in 196ms (Views: 186.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for ::1 at 2015-07-13 15:33:34 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.8ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')
+  Rendered stories/index.html.erb within layouts/application (105.7ms)
+Completed 200 OK in 154ms (Views: 147.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for ::1 at 2015-07-13 15:34:13 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.9ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.7ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  [1m[36mStory Load (0.7ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')[0m
+  Rendered stories/index.html.erb within layouts/application (92.0ms)
+Completed 200 OK in 145ms (Views: 138.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:34:13 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:34:13 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:34:13 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:34:13 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:34:13 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:34:13 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:34:13 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:34:13 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:34:13 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:34:13 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:34:13 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:34:33 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  [1m[35mStory Load (0.8ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')
+  Rendered stories/index.html.erb within layouts/application (104.2ms)
+Completed 200 OK in 150ms (Views: 143.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:34:33 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:34:33 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:34:33 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:34:33 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:34:33 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:34:33 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:34:33 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:34:33 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:34:33 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:34:33 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:34:33 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:34:52 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')[0m
+  Rendered stories/index.html.erb within layouts/application (100.8ms)
+Completed 200 OK in 147ms (Views: 142.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:34:52 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:34:52 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:34:52 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:34:52 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:34:52 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:34:52 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:34:52 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:34:52 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:34:52 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:34:52 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:34:52 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 15:35:05 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.7ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Techmeme')
+  Rendered stories/index.html.erb within layouts/application (105.5ms)
+Completed 200 OK in 150ms (Views: 143.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 15:35:06 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 15:35:06 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 15:35:06 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 15:35:06 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 15:35:06 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 15:35:06 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 15:35:06 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 15:35:06 -0600
+
+
+Started GET "/assets/techmeme-7d3e96f0e091c8b9551d06c497967d0c266013ac0f053e2542d21463be93ca74.png" for ::1 at 2015-07-13 15:35:06 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 15:35:06 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 15:35:06 -0600

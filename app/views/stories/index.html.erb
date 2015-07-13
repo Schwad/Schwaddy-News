@@ -19,11 +19,14 @@
 
 
         <% if story.originplace == "Hacker News" %>
-        <h4 style="margin-left:50px;">
+        <h4 style="margin-left:51px;">
           <%= image_tag("y.gif", size: "20")%>
         <% elsif story.originplace == "Reddit Webdev" %>
         <h4 style="margin-left:45px;">
           <%= image_tag( "reddit.png", size: "34")%>
+        <% elsif story.originplace == "Techmeme"%>
+          <h4 style="margin-left:52px;">
+          <%= image_tag( "techmeme.png", size: "20")%>
 
         <% end %>
       </h4>

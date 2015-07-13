@@ -4,11 +4,12 @@ module ApplicationHelper
     remove_all
     update_ycombinator
     update_reddit
+    update_techmeme
     # update_longform
     # update_thebrowser
     # update_slashdot
     # update_thefeature
-    # update_techmeme
+
   end
 
   def remove_all
@@ -126,6 +127,57 @@ module ApplicationHelper
       @reddit_scores << "#{score.text} points"
     end
   end
+
+  def update_techmeme
+    puts "Updating techmeme...."
+    @a = Mechanize.new
+    @a = @a.get('http://www.techmeme.com/river')
+    get_techmeme_stories_and_links
+    get_techmeme_scores
+    iterator = 0
+    @new_story = true
+    puts "Creating stories..."
+    while iterator < @scores.length
+      if @old_stories.include?(@techmeme_stories[0][iterator])
+        @new_story = false
+      else
+        @new_story = true
+      end
+      Story.create(
+          :source => @techmeme_stories[0][iterator],
+          :href => @techmeme_stories[1][iterator],
+          :points_text => @techmeme_scores[iterator],
+          :originplace => 'Techmeme',
+          :is_new => @new_story,
+          :altering_of_the_points => 0
+        )
+      iterator += 1
+    end
+    puts "techmeme updated!"
+
+  end
+
+  def get_techmeme_stories_and_links
+    @techmeme_stories = [[],[]]
+    @iterator = 3
+    @a.links[17..47].each do |article|
+      if @iterator % 2 == 1
+        @techmeme_stories[0] << article.text
+        @techmeme_stories[1] << article.href
+      end
+      @iterator += 1
+    end
+  end
+
+  def get_techmeme_scores
+    @techmeme_scores = []
+    @iterator = @techmeme_stories[0].length
+    while @iterator >= 0
+      @techmeme_scores << "#{@iterator} points"
+      @iterator -= 1
+    end
+  end
+
 
 
 end

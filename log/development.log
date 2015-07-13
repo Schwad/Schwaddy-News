@@ -3168,3 +3168,1862 @@ Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47
 
 
 Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 01:34:20 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 11:26:14 -0600
+
+PG::ConnectionBad - could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+:
+  activerecord (4.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `connect'
+  activerecord (4.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:567:in `retrieve_connection'
+  activerecord (4.2.1) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.1) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.1) lib/active_record/migration.rb:384:in `connection'
+  activerecord (4.2.1) lib/active_record/migration.rb:371:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/33c38dfc9f3eca98/variables" for ::1 at 2015-07-13 11:26:15 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 11:29:50 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (3.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (4.0ms)[0m  SELECT "stories".* FROM "stories"
+  Rendered stories/index.html.erb within layouts/application (194.0ms)
+Completed 200 OK in 384ms (Views: 353.0ms | ActiveRecord: 17.6ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 11:29:51 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 11:29:51 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 11:29:51 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 11:29:51 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 11:29:51 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 11:29:51 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 11:29:51 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 11:29:51 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 11:29:51 -0600
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "stories"[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories"
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (2.4ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 60]]
+  [1m[35m (1.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 61]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 62]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 63]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 64]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 65]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (301.6ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 66]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 67]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 68]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 69]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 70]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 71]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 72]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 73]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 74]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 75]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 76]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 77]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 78]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 79]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 80]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 81]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 82]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 83]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 84]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 85]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 86]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 87]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 88]]
+  [1m[35m (1.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.8ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Soloshot – No cameraman? No problem"], ["href", "http://shop.soloshot.com/"], ["points_text", "196 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.465249"], ["updated_at", "2015-07-13 17:30:09.465249"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Show HN: Density Platform"], ["href", "http://www.density.io/?ref=hn"], ["points_text", "109 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.474682"], ["updated_at", "2015-07-13 17:30:09.474682"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "The boring front-end developer"], ["href", "http://thebfed.com/"], ["points_text", "47 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.478207"], ["updated_at", "2015-07-13 17:30:09.478207"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "The Really Big One"], ["href", "http://www.newyorker.com/magazine/2015/07/20/the-really-big-one"], ["points_text", "107 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.481868"], ["updated_at", "2015-07-13 17:30:09.481868"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "First Java Zero-Day Attack in Two Years Targets NATO and US Defense Organizations"], ["href", "http://blog.trendmicro.com/pawn-storm-first-java-zero-day-attack-in-two-years-targets-nato-us-defense-organizations/"], ["points_text", "143 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.485334"], ["updated_at", "2015-07-13 17:30:09.485334"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "'Happy Birthday' Hits Sour Notes When It Comes to Song's Free Use"], ["href", "http://www.npr.org/2015/07/12/422327673/happy-birthday-hits-sour-notes-when-it-comes-to-songs-free-use?utm_source=facebook.com&utm_medium=social&utm_campaign=npr&utm_term=nprnews&utm_content=20150712"], ["points_text", "22 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.488394"], ["updated_at", "2015-07-13 17:30:09.488394"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Writing iOS and Android Apps in Go"], ["href", "https://sourcedna.com/blog/20150712/golang-on-ios.html"], ["points_text", "38 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.491448"], ["updated_at", "2015-07-13 17:30:09.491448"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "What does it mean for an algorithm to be fair?"], ["href", "http://jeremykun.com/2015/07/13/what-does-it-mean-for-an-algorithm-to-be-fair/"], ["points_text", "52 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.494643"], ["updated_at", "2015-07-13 17:30:09.494643"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Ceramic – Turn Lisp web applications into native desktop apps"], ["href", "http://ceramic.github.io/"], ["points_text", "57 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.497866"], ["updated_at", "2015-07-13 17:30:09.497866"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Any Sufficiently Advanced Technology Is Indistinguishable from Cthulhu"], ["href", "http://www.antipope.org/charlie/blog-static/2015/07/any-sufficiently-advanced-tech.html"], ["points_text", "141 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.501600"], ["updated_at", "2015-07-13 17:30:09.501600"]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "How Microsoft Bing Censors the Middle East"], ["href", "https://www.eff.org/deeplinks/2015/07/how-microsoft-bing-censors-middle-east"], ["points_text", "83 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.505066"], ["updated_at", "2015-07-13 17:30:09.505066"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Finnish study: Smoking and drinking coffee might prevent Parkinson's disease"], ["href", "http://www.metropolitan.fi/entry/study-smoking-and-drinking-coffee-might-prevent-parkinsons-disea"], ["points_text", "5 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.508249"], ["updated_at", "2015-07-13 17:30:09.508249"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Show HN: Durat.io"], ["href", "http://durat.io/?q=08%3a00+until+16%3a30+-+1+hour+-+15+minutes&%3f="], ["points_text", "35 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.511340"], ["updated_at", "2015-07-13 17:30:09.511340"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Beware the IP non-assert clause in AWS cloud service agreement"], ["href", "http://www.iam-media.com/blog/Detail.aspx?g=16404f83-82a0-4a0f-bc79-38ba53ceaf2d"], ["points_text", "99 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.514540"], ["updated_at", "2015-07-13 17:30:09.514540"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Removal of Unsafe in Java 9 – A disaster in the making"], ["href", "http://blog.dripstat.com/removal-of-sun-misc-unsafe-a-disaster-in-the-making/"], ["points_text", "110 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.518070"], ["updated_at", "2015-07-13 17:30:09.518070"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Nintendo CEO Satoru Iwata has died [pdf]"], ["href", "http://www.nintendo.co.jp/ir/pdf/2015/150713e.pdf"], ["points_text", "73 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 17:30:09.520938"], ["updated_at", "2015-07-13 17:30:09.520938"]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "The easiest bug bounties I have won"], ["href", "http://josipfranjkovic.blogspot.com/2015/07/the-easiest-bug-bounties-i-have-ever-won.html"], ["points_text", "878 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 17:30:09.524167"], ["updated_at", "2015-07-13 17:30:09.524167"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Show HN: AutoAPI Vehicle Web Crawler – Searches the Web to Find the Best Deals"], ["href", "http://autoapi.com/in/8kK8/recently-crawled"], ["points_text", "131 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.527025"], ["updated_at", "2015-07-13 17:30:09.527025"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "H4sh – Exposing the Haskell List library as a set of shell utilities"], ["href", "https://github.com/cpennington/h4sh"], ["points_text", "4 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.530616"], ["updated_at", "2015-07-13 17:30:09.530616"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "VP of Fulfillment – EasyPost (YC S13) Hiring"], ["href", "https://www.easypost.com/jobs"], ["points_text", "47 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.533968"], ["updated_at", "2015-07-13 17:30:09.533968"]]
+  [1m[35m (1.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "A first GraphQL Server"], ["href", "https://medium.com/@clayallsopp/your-first-graphql-server-3c766ab4f0a2"], ["points_text", "104 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 17:30:09.537449"], ["updated_at", "2015-07-13 17:30:09.537449"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "I Waited 19 Months for the Magic Coin Card and It Was a Big Disappointment"], ["href", "http://recode.net/2015/07/13/i-waited-19-months-for-the-magic-coin-card-and-it-was-a-big-disappointment/"], ["points_text", "12 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.540533"], ["updated_at", "2015-07-13 17:30:09.540533"]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Paradoxical Crystal Baffles Physicists"], ["href", "http://www.wired.com/2015/07/paradoxical-crystal-baffles-physicists/"], ["points_text", "64 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.543694"], ["updated_at", "2015-07-13 17:30:09.543694"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Facebook's new chief security officer wants to set a date to kill Flash"], ["href", "http://www.theverge.com/2015/7/13/8948459/adobe-flash-insecure-says-facebook-cso"], ["points_text", "18 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.546662"], ["updated_at", "2015-07-13 17:30:09.546662"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Ivy: iOS app written in Go"], ["href", "https://itunes.apple.com/us/app/ivy-big-number-calculator/id1012116478?mt=8"], ["points_text", "149 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 17:30:09.550216"], ["updated_at", "2015-07-13 17:30:09.550216"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Immutable Infrastructure: No SSH"], ["href", "https://boxfuse.com/blog/no-ssh.html"], ["points_text", "79 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.552985"], ["updated_at", "2015-07-13 17:30:09.552985"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Dark markets"], ["href", "http://www.themorningnews.org/gallery/dark-markets"], ["points_text", "5 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.555854"], ["updated_at", "2015-07-13 17:30:09.555854"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "A History of London at Night"], ["href", "http://blog.longreads.com/2015/06/29/vagabonds-crafty-bauds-and-the-loyal-huzza-a-history-of-london-at-night/"], ["points_text", "48 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 17:30:09.558935"], ["updated_at", "2015-07-13 17:30:09.558935"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "7 Rejections"], ["href", "https://medium.com/@bchesky/7-rejections-7d894cbaa084"], ["points_text", "686 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 17:30:09.561874"], ["updated_at", "2015-07-13 17:30:09.561874"]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for ::1 at 2015-07-13 11:30:11 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories"[0m
+  Rendered stories/index.html.erb within layouts/application (152.7ms)
+Completed 200 OK in 230ms (Views: 228.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 11:30:11 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 11:30:11 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 11:30:11 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 11:30:11 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 11:30:11 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 11:30:11 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 11:30:11 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 11:30:11 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 11:30:11 -0600
+  [1m[36m (2.6ms)[0m  [1mSELECT COUNT(*) FROM "stories"[0m
+  [1m[35mStory Load (0.8ms)[0m  SELECT "stories".* FROM "stories"
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 89]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 90]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 91]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 92]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 93]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 94]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 95]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 96]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 97]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 98]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 99]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 100]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 101]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 102]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 103]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 104]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 105]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 106]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 107]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 108]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 109]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 110]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 111]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 112]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 113]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 114]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 115]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 116]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 117]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Soloshot: Automatically film outdoor activities without a camera operator"], ["href", "http://shop.soloshot.com/"], ["points_text", "232 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 18:14:03.812979"], ["updated_at", "2015-07-13 18:14:03.812979"]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Show HN: Density – Anonymous infrared people counter"], ["href", "http://www.density.io/?ref=hn"], ["points_text", "139 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 18:14:03.817667"], ["updated_at", "2015-07-13 18:14:03.817667"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Pure UI"], ["href", "http://rauchg.com/2015/pure-ui/"], ["points_text", "28 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 18:14:03.820834"], ["updated_at", "2015-07-13 18:14:03.820834"]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "The Really Big One"], ["href", "http://www.newyorker.com/magazine/2015/07/20/the-really-big-one"], ["points_text", "158 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.824057"], ["updated_at", "2015-07-13 18:14:03.824057"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "First Java Zero-Day Attack in Two Years Targets NATO and US Defense Organizations"], ["href", "http://blog.trendmicro.com/pawn-storm-first-java-zero-day-attack-in-two-years-targets-nato-us-defense-organizations/"], ["points_text", "154 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.827608"], ["updated_at", "2015-07-13 18:14:03.827608"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "'Happy Birthday' Hits Sour Notes When It Comes to Song's Free Use"], ["href", "http://www.npr.org/2015/07/12/422327673/happy-birthday-hits-sour-notes-when-it-comes-to-songs-free-use?utm_source=facebook.com&utm_medium=social&utm_campaign=npr&utm_term=nprnews&utm_content=20150712"], ["points_text", "35 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.831274"], ["updated_at", "2015-07-13 18:14:03.831274"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "How Microsoft Bing Censors the Middle East"], ["href", "https://www.eff.org/deeplinks/2015/07/how-microsoft-bing-censors-middle-east"], ["points_text", "26 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.834165"], ["updated_at", "2015-07-13 18:14:03.834165"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "What's inside Google's new Go app for iOS and Android"], ["href", "https://sourcedna.com/blog/20150712/golang-on-ios.html"], ["points_text", "45 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 18:14:03.837127"], ["updated_at", "2015-07-13 18:14:03.837127"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "The boring front-end developer"], ["href", "http://thebfed.com/"], ["points_text", "91 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.840324"], ["updated_at", "2015-07-13 18:14:03.840324"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "What does it mean for an algorithm to be fair?"], ["href", "http://jeremykun.com/2015/07/13/what-does-it-mean-for-an-algorithm-to-be-fair/"], ["points_text", "56 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.843287"], ["updated_at", "2015-07-13 18:14:03.843287"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Ceramic – Turn Lisp web applications into desktop apps"], ["href", "http://ceramic.github.io/"], ["points_text", "148 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 18:14:03.846779"], ["updated_at", "2015-07-13 18:14:03.846779"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Facebook's new chief security officer wants to set a date to kill Flash"], ["href", "http://www.theverge.com/2015/7/13/8948459/adobe-flash-insecure-says-facebook-cso"], ["points_text", "42 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.849847"], ["updated_at", "2015-07-13 18:14:03.849847"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Show HN: Durat.io"], ["href", "http://durat.io/?q=08%3a00+until+16%3a30+-+1+hour+-+15+minutes&%3f="], ["points_text", "103 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.852494"], ["updated_at", "2015-07-13 18:14:03.852494"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Finnish study: Smoking and drinking coffee might prevent Parkinson's disease"], ["href", "http://www.metropolitan.fi/entry/study-smoking-and-drinking-coffee-might-prevent-parkinsons-disea"], ["points_text", "40 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.855567"], ["updated_at", "2015-07-13 18:14:03.855567"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Beware the IP non-assert clause in AWS cloud service agreement"], ["href", "http://www.iam-media.com/blog/Detail.aspx?g=16404f83-82a0-4a0f-bc79-38ba53ceaf2d"], ["points_text", "118 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.858841"], ["updated_at", "2015-07-13 18:14:03.858841"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Any Sufficiently Advanced Technology Is Indistinguishable from Cthulhu"], ["href", "http://www.antipope.org/charlie/blog-static/2015/07/any-sufficiently-advanced-tech.html"], ["points_text", "96 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.862146"], ["updated_at", "2015-07-13 18:14:03.862146"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "The Disadvantages of Single Page Applications"], ["href", "http://adamsilver.io/articles/the-disadvantages-of-single-page-applications/"], ["points_text", "3 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 18:14:03.865282"], ["updated_at", "2015-07-13 18:14:03.865282"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Nintendo CEO Satoru Iwata has died [pdf]"], ["href", "http://www.nintendo.co.jp/ir/pdf/2015/150713e.pdf"], ["points_text", "890 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.868582"], ["updated_at", "2015-07-13 18:14:03.868582"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Dark markets"], ["href", "http://www.themorningnews.org/gallery/dark-markets"], ["points_text", "10 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.871681"], ["updated_at", "2015-07-13 18:14:03.871681"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Show HN: AutoAPI Vehicle Web Crawler – Searches the Web to Find the Best Deals"], ["href", "http://autoapi.com/in/8kK8/recently-crawled"], ["points_text", "85 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.874685"], ["updated_at", "2015-07-13 18:14:03.874685"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "The easiest bug bounties I have won"], ["href", "http://josipfranjkovic.blogspot.com/2015/07/the-easiest-bug-bounties-i-have-ever-won.html"], ["points_text", "6 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.877740"], ["updated_at", "2015-07-13 18:14:03.877740"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Shanghai's Lie Huo arcade"], ["href", "http://www.eurogamer.net/articles/2015-07-12-inside-shanghais-hardcore-gaming-heartbeat"], ["points_text", "136 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 18:14:03.880907"], ["updated_at", "2015-07-13 18:14:03.880907"]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "I Waited 19 Months for the Magic Coin Card and It Was a Big Disappointment"], ["href", "http://recode.net/2015/07/13/i-waited-19-months-for-the-magic-coin-card-and-it-was-a-big-disappointment/"], ["points_text", "5 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.883786"], ["updated_at", "2015-07-13 18:14:03.883786"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "H4sh – Exposing the Haskell List library as a set of shell utilities"], ["href", "https://github.com/cpennington/h4sh"], ["points_text", "20 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.886751"], ["updated_at", "2015-07-13 18:14:03.886751"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "EasyPost (YC S13) Is Hiring a VP of Fulfillment"], ["href", "https://www.easypost.com/jobs"], ["points_text", "47 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 18:14:03.889806"], ["updated_at", "2015-07-13 18:14:03.889806"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "A first GraphQL Server"], ["href", "https://medium.com/@clayallsopp/your-first-graphql-server-3c766ab4f0a2"], ["points_text", "109 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.892802"], ["updated_at", "2015-07-13 18:14:03.892802"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Removal of Unsafe in Java 9 – A disaster in the making"], ["href", "http://blog.dripstat.com/removal-of-sun-misc-unsafe-a-disaster-in-the-making/"], ["points_text", "80 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.895967"], ["updated_at", "2015-07-13 18:14:03.895967"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Paradoxical Crystal Baffles Physicists"], ["href", "http://www.wired.com/2015/07/paradoxical-crystal-baffles-physicists/"], ["points_text", "67 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:14:03.899619"], ["updated_at", "2015-07-13 18:14:03.899619"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Pragmatic physically based rendering: Intro"], ["href", "http://marcinignac.com/blog/pragmatic-pbr-intro/"], ["points_text", "6 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 18:14:03.902770"], ["updated_at", "2015-07-13 18:14:03.902770"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[36m (1.7ms)[0m  [1mSELECT COUNT(*) FROM "stories"[0m
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories"
+  [1m[36mStory Load (0.4ms)[0m  [1mSELECT "stories".* FROM "stories"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 118]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 119]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 120]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 121]]
+  [1m[36m (1.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 122]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 123]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 124]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 125]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 126]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 127]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 128]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 129]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 130]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 131]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 132]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 133]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 134]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 135]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 136]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 137]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 138]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 139]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 140]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 141]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 142]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 143]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 144]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 145]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 146]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Soloshot: Automatically film outdoor activities without a camera operator"], ["href", "http://shop.soloshot.com/"], ["points_text", "233 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.146882"], ["updated_at", "2015-07-13 18:15:02.146882"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Show HN: Density – Anonymous infrared people counter"], ["href", "http://www.density.io/?ref=hn"], ["points_text", "139 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.151507"], ["updated_at", "2015-07-13 18:15:02.151507"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Pure UI"], ["href", "http://rauchg.com/2015/pure-ui/"], ["points_text", "30 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.154892"], ["updated_at", "2015-07-13 18:15:02.154892"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "The Really Big One"], ["href", "http://www.newyorker.com/magazine/2015/07/20/the-really-big-one"], ["points_text", "159 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.157803"], ["updated_at", "2015-07-13 18:15:02.157803"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "First Java Zero-Day Attack in Two Years Targets NATO and US Defense Organizations"], ["href", "http://blog.trendmicro.com/pawn-storm-first-java-zero-day-attack-in-two-years-targets-nato-us-defense-organizations/"], ["points_text", "154 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.161115"], ["updated_at", "2015-07-13 18:15:02.161115"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "'Happy Birthday' Hits Sour Notes When It Comes to Song's Free Use"], ["href", "http://www.npr.org/2015/07/12/422327673/happy-birthday-hits-sour-notes-when-it-comes-to-songs-free-use?utm_source=facebook.com&utm_medium=social&utm_campaign=npr&utm_term=nprnews&utm_content=20150712"], ["points_text", "35 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.164992"], ["updated_at", "2015-07-13 18:15:02.164992"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "How Microsoft Bing Censors the Middle East"], ["href", "https://www.eff.org/deeplinks/2015/07/how-microsoft-bing-censors-middle-east"], ["points_text", "26 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.168170"], ["updated_at", "2015-07-13 18:15:02.168170"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "What's inside Google's new Go app for iOS and Android"], ["href", "https://sourcedna.com/blog/20150712/golang-on-ios.html"], ["points_text", "45 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.171438"], ["updated_at", "2015-07-13 18:15:02.171438"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "The boring front-end developer"], ["href", "http://thebfed.com/"], ["points_text", "92 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.174421"], ["updated_at", "2015-07-13 18:15:02.174421"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "What does it mean for an algorithm to be fair?"], ["href", "http://jeremykun.com/2015/07/13/what-does-it-mean-for-an-algorithm-to-be-fair/"], ["points_text", "56 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.177452"], ["updated_at", "2015-07-13 18:15:02.177452"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Ceramic – Turn Lisp web applications into desktop apps"], ["href", "http://ceramic.github.io/"], ["points_text", "148 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.180677"], ["updated_at", "2015-07-13 18:15:02.180677"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Facebook's new chief security officer wants to set a date to kill Flash"], ["href", "http://www.theverge.com/2015/7/13/8948459/adobe-flash-insecure-says-facebook-cso"], ["points_text", "43 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.184122"], ["updated_at", "2015-07-13 18:15:02.184122"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Show HN: Durat.io"], ["href", "http://durat.io/?q=08%3a00+until+16%3a30+-+1+hour+-+15+minutes&%3f="], ["points_text", "103 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.187262"], ["updated_at", "2015-07-13 18:15:02.187262"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Beware the IP non-assert clause in AWS cloud service agreement"], ["href", "http://www.iam-media.com/blog/Detail.aspx?g=16404f83-82a0-4a0f-bc79-38ba53ceaf2d"], ["points_text", "118 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.190140"], ["updated_at", "2015-07-13 18:15:02.190140"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Finnish study: Smoking and drinking coffee might prevent Parkinson's disease"], ["href", "http://www.metropolitan.fi/entry/study-smoking-and-drinking-coffee-might-prevent-parkinsons-disea"], ["points_text", "40 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.193309"], ["updated_at", "2015-07-13 18:15:02.193309"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Any Sufficiently Advanced Technology Is Indistinguishable from Cthulhu"], ["href", "http://www.antipope.org/charlie/blog-static/2015/07/any-sufficiently-advanced-tech.html"], ["points_text", "96 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.196408"], ["updated_at", "2015-07-13 18:15:02.196408"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Nintendo CEO Satoru Iwata has died [pdf]"], ["href", "http://www.nintendo.co.jp/ir/pdf/2015/150713e.pdf"], ["points_text", "890 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.199462"], ["updated_at", "2015-07-13 18:15:02.199462"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "The Disadvantages of Single Page Applications"], ["href", "http://adamsilver.io/articles/the-disadvantages-of-single-page-applications/"], ["points_text", "3 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.202696"], ["updated_at", "2015-07-13 18:15:02.202696"]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "The easiest bug bounties I have won"], ["href", "http://josipfranjkovic.blogspot.com/2015/07/the-easiest-bug-bounties-i-have-ever-won.html"], ["points_text", "85 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.205784"], ["updated_at", "2015-07-13 18:15:02.205784"]]
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Shanghai's Lie Huo arcade"], ["href", "http://www.eurogamer.net/articles/2015-07-12-inside-shanghais-hardcore-gaming-heartbeat"], ["points_text", "136 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.209353"], ["updated_at", "2015-07-13 18:15:02.209353"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "I Waited 19 Months for the Magic Coin Card and It Was a Big Disappointment"], ["href", "http://recode.net/2015/07/13/i-waited-19-months-for-the-magic-coin-card-and-it-was-a-big-disappointment/"], ["points_text", "5 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.212326"], ["updated_at", "2015-07-13 18:15:02.212326"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "The New Reddit C.E.O.’s Many Challenges"], ["href", "http://bits.blogs.nytimes.com/2015/07/11/the-new-reddit-ceos-many-challenges/"], ["points_text", "21 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 18:15:02.215457"], ["updated_at", "2015-07-13 18:15:02.215457"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "H4sh – Exposing the Haskell List library as a set of shell utilities"], ["href", "https://github.com/cpennington/h4sh"], ["points_text", "8 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.218326"], ["updated_at", "2015-07-13 18:15:02.218326"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "A first GraphQL Server"], ["href", "https://medium.com/@clayallsopp/your-first-graphql-server-3c766ab4f0a2"], ["points_text", "47 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.221098"], ["updated_at", "2015-07-13 18:15:02.221098"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Paradoxical Crystal Baffles Physicists"], ["href", "http://www.wired.com/2015/07/paradoxical-crystal-baffles-physicists/"], ["points_text", "109 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.224082"], ["updated_at", "2015-07-13 18:15:02.224082"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (302.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "EasyPost (YC S13) Is Hiring a VP of Fulfillment"], ["href", "https://www.easypost.com/jobs"], ["points_text", "67 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.227067"], ["updated_at", "2015-07-13 18:15:02.227067"]]
+  [1m[35m (1.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Pragmatic physically based rendering: Intro"], ["href", "http://marcinignac.com/blog/pragmatic-pbr-intro/"], ["points_text", "6 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.533038"], ["updated_at", "2015-07-13 18:15:02.533038"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Removal of Unsafe in Java 9 – A disaster in the making"], ["href", "http://blog.dripstat.com/removal-of-sun-misc-unsafe-a-disaster-in-the-making/"], ["points_text", "80 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:02.536717"], ["updated_at", "2015-07-13 18:15:02.536717"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "A History of London at Night"], ["href", "http://blog.longreads.com/2015/06/29/vagabonds-crafty-bauds-and-the-loyal-huzza-a-history-of-london-at-night/"], ["points_text", "53 points"], ["originplace", "Hacker News"], ["is_new", "t"], ["created_at", "2015-07-13 18:15:02.539920"], ["updated_at", "2015-07-13 18:15:02.539920"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[36m (1.7ms)[0m  [1mSELECT COUNT(*) FROM "stories"[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories"
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 147]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 148]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 149]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 150]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 151]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 152]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 153]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 154]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 155]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 156]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 157]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 158]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 159]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 160]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 161]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 162]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 163]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 164]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 165]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 166]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 167]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 168]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 169]]
+  [1m[35m (1.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 170]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 171]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 172]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 173]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "stories" WHERE "stories"."id" = $1  [["id", 174]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "stories" WHERE "stories"."id" = $1[0m  [["id", 175]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Soloshot: Automatically film outdoor activities without a camera operator"], ["href", "http://shop.soloshot.com/"], ["points_text", "233 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.554540"], ["updated_at", "2015-07-13 18:15:51.554540"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Show HN: Density – Anonymous infrared people counter"], ["href", "http://www.density.io/?ref=hn"], ["points_text", "139 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.558550"], ["updated_at", "2015-07-13 18:15:51.558550"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Pure UI"], ["href", "http://rauchg.com/2015/pure-ui/"], ["points_text", "30 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.561625"], ["updated_at", "2015-07-13 18:15:51.561625"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "The Really Big One"], ["href", "http://www.newyorker.com/magazine/2015/07/20/the-really-big-one"], ["points_text", "159 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.564987"], ["updated_at", "2015-07-13 18:15:51.564987"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "First Java Zero-Day Attack in Two Years Targets NATO and US Defense Organizations"], ["href", "http://blog.trendmicro.com/pawn-storm-first-java-zero-day-attack-in-two-years-targets-nato-us-defense-organizations/"], ["points_text", "154 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.568674"], ["updated_at", "2015-07-13 18:15:51.568674"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "'Happy Birthday' Hits Sour Notes When It Comes to Song's Free Use"], ["href", "http://www.npr.org/2015/07/12/422327673/happy-birthday-hits-sour-notes-when-it-comes-to-songs-free-use?utm_source=facebook.com&utm_medium=social&utm_campaign=npr&utm_term=nprnews&utm_content=20150712"], ["points_text", "35 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.571974"], ["updated_at", "2015-07-13 18:15:51.571974"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "How Microsoft Bing Censors the Middle East"], ["href", "https://www.eff.org/deeplinks/2015/07/how-microsoft-bing-censors-middle-east"], ["points_text", "26 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.575377"], ["updated_at", "2015-07-13 18:15:51.575377"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "What's inside Google's new Go app for iOS and Android"], ["href", "https://sourcedna.com/blog/20150712/golang-on-ios.html"], ["points_text", "45 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.578401"], ["updated_at", "2015-07-13 18:15:51.578401"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "The boring front-end developer"], ["href", "http://thebfed.com/"], ["points_text", "92 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.581464"], ["updated_at", "2015-07-13 18:15:51.581464"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "What does it mean for an algorithm to be fair?"], ["href", "http://jeremykun.com/2015/07/13/what-does-it-mean-for-an-algorithm-to-be-fair/"], ["points_text", "56 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.585068"], ["updated_at", "2015-07-13 18:15:51.585068"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Ceramic – Turn Lisp web applications into desktop apps"], ["href", "http://ceramic.github.io/"], ["points_text", "148 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.588497"], ["updated_at", "2015-07-13 18:15:51.588497"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Facebook's new chief security officer wants to set a date to kill Flash"], ["href", "http://www.theverge.com/2015/7/13/8948459/adobe-flash-insecure-says-facebook-cso"], ["points_text", "43 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.591590"], ["updated_at", "2015-07-13 18:15:51.591590"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Show HN: Durat.io"], ["href", "http://durat.io/?q=08%3a00+until+16%3a30+-+1+hour+-+15+minutes&%3f="], ["points_text", "103 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.595200"], ["updated_at", "2015-07-13 18:15:51.595200"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Beware the IP non-assert clause in AWS cloud service agreement"], ["href", "http://www.iam-media.com/blog/Detail.aspx?g=16404f83-82a0-4a0f-bc79-38ba53ceaf2d"], ["points_text", "118 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.598630"], ["updated_at", "2015-07-13 18:15:51.598630"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Finnish study: Smoking and drinking coffee might prevent Parkinson's disease"], ["href", "http://www.metropolitan.fi/entry/study-smoking-and-drinking-coffee-might-prevent-parkinsons-disea"], ["points_text", "40 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.602148"], ["updated_at", "2015-07-13 18:15:51.602148"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Any Sufficiently Advanced Technology Is Indistinguishable from Cthulhu"], ["href", "http://www.antipope.org/charlie/blog-static/2015/07/any-sufficiently-advanced-tech.html"], ["points_text", "96 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.605043"], ["updated_at", "2015-07-13 18:15:51.605043"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Nintendo CEO Satoru Iwata has died [pdf]"], ["href", "http://www.nintendo.co.jp/ir/pdf/2015/150713e.pdf"], ["points_text", "890 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.608211"], ["updated_at", "2015-07-13 18:15:51.608211"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "The Disadvantages of Single Page Applications"], ["href", "http://adamsilver.io/articles/the-disadvantages-of-single-page-applications/"], ["points_text", "3 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.611288"], ["updated_at", "2015-07-13 18:15:51.611288"]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "The easiest bug bounties I have won"], ["href", "http://josipfranjkovic.blogspot.com/2015/07/the-easiest-bug-bounties-i-have-ever-won.html"], ["points_text", "85 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.614593"], ["updated_at", "2015-07-13 18:15:51.614593"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Shanghai's Lie Huo arcade"], ["href", "http://www.eurogamer.net/articles/2015-07-12-inside-shanghais-hardcore-gaming-heartbeat"], ["points_text", "136 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.617918"], ["updated_at", "2015-07-13 18:15:51.617918"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "I Waited 19 Months for the Magic Coin Card and It Was a Big Disappointment"], ["href", "http://recode.net/2015/07/13/i-waited-19-months-for-the-magic-coin-card-and-it-was-a-big-disappointment/"], ["points_text", "5 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.620963"], ["updated_at", "2015-07-13 18:15:51.620963"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "The New Reddit C.E.O.’s Many Challenges"], ["href", "http://bits.blogs.nytimes.com/2015/07/11/the-new-reddit-ceos-many-challenges/"], ["points_text", "21 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.624072"], ["updated_at", "2015-07-13 18:15:51.624072"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "H4sh – Exposing the Haskell List library as a set of shell utilities"], ["href", "https://github.com/cpennington/h4sh"], ["points_text", "8 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.627034"], ["updated_at", "2015-07-13 18:15:51.627034"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "A first GraphQL Server"], ["href", "https://medium.com/@clayallsopp/your-first-graphql-server-3c766ab4f0a2"], ["points_text", "47 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.629835"], ["updated_at", "2015-07-13 18:15:51.629835"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Paradoxical Crystal Baffles Physicists"], ["href", "http://www.wired.com/2015/07/paradoxical-crystal-baffles-physicists/"], ["points_text", "109 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.632860"], ["updated_at", "2015-07-13 18:15:51.632860"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "EasyPost (YC S13) Is Hiring a VP of Fulfillment"], ["href", "https://www.easypost.com/jobs"], ["points_text", "67 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.636292"], ["updated_at", "2015-07-13 18:15:51.636292"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Pragmatic physically based rendering: Intro"], ["href", "http://marcinignac.com/blog/pragmatic-pbr-intro/"], ["points_text", "6 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.639360"], ["updated_at", "2015-07-13 18:15:51.639360"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Removal of Unsafe in Java 9 – A disaster in the making"], ["href", "http://blog.dripstat.com/removal-of-sun-misc-unsafe-a-disaster-in-the-making/"], ["points_text", "80 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.642413"], ["updated_at", "2015-07-13 18:15:51.642413"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "A History of London at Night"], ["href", "http://blog.longreads.com/2015/06/29/vagabonds-crafty-bauds-and-the-loyal-huzza-a-history-of-london-at-night/"], ["points_text", "53 points"], ["originplace", "Hacker News"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.645199"], ["updated_at", "2015-07-13 18:15:51.645199"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Any QA's Here? How is your Testing/Test Plans done?"], ["href", "[\"/r/webdev/comments/3d4p31/any_qas_here_how_is_your_testingtest_plans_done\"]"], ["points_text", "4 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.840210"], ["updated_at", "2015-07-13 18:15:51.840210"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Eloquent Javascript - Awesome online book that teaches JS from a CompSci perspective. Includes live examples"], ["href", "[\"http://eloquentjavascript.net\"]"], ["points_text", "358 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.843446"], ["updated_at", "2015-07-13 18:15:51.843446"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Hackr.io - A huge collection of the best coding tutorials online."], ["href", "[\"http://hackr.io\"]"], ["points_text", "21 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.846883"], ["updated_at", "2015-07-13 18:15:51.846883"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "The Boring Front-end Developer by Adam Silver"], ["href", "[\"http://thebfed.com\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.850279"], ["updated_at", "2015-07-13 18:15:51.850279"]]
+  [1m[36m (1.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Complex Routing Logic with Thundermole"], ["href", "[\"http://cruft.io/posts/complex-routing-logic-with-thundermole\"]"], ["points_text", "15 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.853989"], ["updated_at", "2015-07-13 18:15:51.853989"]]
+  [1m[35m (1.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "HTTP/2 adoption is still low at 0.4%, but growing fast thanks to LiteSpeed"], ["points_text", "9 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.857695"], ["updated_at", "2015-07-13 18:15:51.857695"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "I let go of a client today."], ["href", "[\"/r/webdev/comments/3d4nva/i_let_go_of_a_client_today\"]"], ["points_text", "7 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.861089"], ["updated_at", "2015-07-13 18:15:51.861089"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Overwhelmed by the sheer number of frameworks and lack of an organised ecosystem"], ["href", "[\"/r/webdev/comments/3d5a7e/overwhelmed_by_the_sheer_number_of_frameworks_and\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.864155"], ["updated_at", "2015-07-13 18:15:51.864155"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "PhantomJS as a Service"], ["points_text", "4 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.867458"], ["updated_at", "2015-07-13 18:15:51.867458"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("source", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "Since OctoberCMS is finally approaching a stable release, I decided to build a boilerplate for it on Vagrant. I will appreciate any feedback. Enjoy! :)"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.870729"], ["updated_at", "2015-07-13 18:15:51.870729"]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "stories" ("source", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "A two part series on how to set up a fresh Elementary OS/Ubuntu machine for web development - written on Github repos in their readme.md"], ["points_text", "32 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.874591"], ["updated_at", "2015-07-13 18:15:51.874591"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Starting my first job in web dev and having symptoms of impostor syndrome, any advice?"], ["href", "[\"/r/webdev/comments/3d2lv3/starting_my_first_job_in_web_dev_and_having\"]"], ["points_text", "28 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.878471"], ["updated_at", "2015-07-13 18:15:51.878471"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Components for a new web platform"], ["href", "[\"/r/webdev/comments/3d5iow/components_for_a_new_web_platform\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.881634"], ["updated_at", "2015-07-13 18:15:51.881634"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Rant: I am so tired of hearing about frameworks"], ["href", "[\"/r/webdev/comments/3d5fez/rant_i_am_so_tired_of_hearing_about_frameworks\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.885415"], ["updated_at", "2015-07-13 18:15:51.885415"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["source", "First webpage. Simple click to download button"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.888723"], ["updated_at", "2015-07-13 18:15:51.888723"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Hackathons Near Me: a new website to help you find hackathons"], ["href", "[\"http://hackathonsnear.me\"]"], ["points_text", "2 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.891675"], ["updated_at", "2015-07-13 18:15:51.891675"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Customize on screen keyboard for kiosk mode"], ["href", "[\"/r/webdev/comments/3d5e4q/customize_on_screen_keyboard_for_kiosk_mode\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.894726"], ["updated_at", "2015-07-13 18:15:51.894726"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Any Websocket protocols / standards that provide similar functionality to REST APIs?"], ["href", "[\"/r/webdev/comments/3d5d0g/any_websocket_protocols_standards_that_provide\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.898169"], ["updated_at", "2015-07-13 18:15:51.898169"]]
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Wordpress vs. writing your own blog from scratch?"], ["href", "[\"/r/webdev/comments/3d5cjq/wordpress_vs_writing_your_own_blog_from_scratch\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.905405"], ["updated_at", "2015-07-13 18:15:51.905405"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Testing Issues occurring for a single user"], ["href", "[\"/r/webdev/comments/3d59kl/testing_issues_occurring_for_a_single_user\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.908810"], ["updated_at", "2015-07-13 18:15:51.908810"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "New to web development, looking for more practice exercises like these!"], ["href", "[\"/r/webdev/comments/3d1qov/new_to_web_development_looking_for_more_practice\"]"], ["points_text", "43 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.911857"], ["updated_at", "2015-07-13 18:15:51.911857"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Working on a reddit redesign inspired by Medium. Any feedback would be awesome!"], ["href", "[\"http://rdit.herokuapp.com\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.915171"], ["updated_at", "2015-07-13 18:15:51.915171"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "Made my first app/site. Need some feedback/help."], ["href", "[\"/r/webdev/comments/3d56os/made_my_first_appsite_need_some_feedbackhelp\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.918944"], ["updated_at", "2015-07-13 18:15:51.918944"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("source", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["source", "Handling load peaks with CloudFlare for free"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.922142"], ["updated_at", "2015-07-13 18:15:51.922142"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["source", "I know jQuery, but my javascript proper is weak. Is there a good text for folks in my position who want to learn?"], ["href", "[\"/r/webdev/comments/3d2yst/i_know_jquery_but_my_javascript_proper_is_weak_is\"]"], ["points_text", "14 points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.925409"], ["updated_at", "2015-07-13 18:15:51.925409"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("source", "href", "points_text", "originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["source", "Desktop dev going web and I need some help"], ["href", "[\"/r/webdev/comments/3d55f7/desktop_dev_going_web_and_i_need_some_help\"]"], ["points_text", "• points"], ["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.928261"], ["updated_at", "2015-07-13 18:15:51.928261"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.931286"], ["updated_at", "2015-07-13 18:15:51.931286"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.934773"], ["updated_at", "2015-07-13 18:15:51.934773"]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("originplace", "is_new", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["originplace", "Reddit Webdev"], ["is_new", "f"], ["created_at", "2015-07-13 18:15:51.938136"], ["updated_at", "2015-07-13 18:15:51.938136"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+
+
+Started GET "/" for ::1 at 2015-07-13 12:17:11 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StoriesController#index as HTML
+  Rendered stories/index.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+NoMethodError - undefined method `each' for nil:NilClass:
+  app/views/stories/index.html.erb:12:in `_app_views_stories_index_html_erb__557741360877056744_70094922135180'
+  actionview (4.2.1) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.1) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.1) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.1) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.1) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.1) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.1) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started GET "/" for ::1 at 2015-07-13 12:17:12 -0600
+Processing by StoriesController#index as HTML
+  Rendered stories/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+NoMethodError - undefined method `each' for nil:NilClass:
+  app/views/stories/index.html.erb:12:in `_app_views_stories_index_html_erb__557741360877056744_70094922135180'
+  actionview (4.2.1) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.1) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.1) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.1) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.1) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.1) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.1) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/cb697bd95c307a5a/variables" for ::1 at 2015-07-13 12:17:12 -0600
+  [1m[35mStory Load (3.2ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+
+
+Started GET "/" for ::1 at 2015-07-13 12:18:07 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories"
+  Rendered stories/index.html.erb within layouts/application (167.2ms)
+Completed 200 OK in 407ms (Views: 400.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 12:18:08 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 12:18:08 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 12:18:08 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 12:18:08 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 12:18:08 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 12:18:08 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 12:18:08 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 12:18:08 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 12:25:07 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (1.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 4.7ms)
+
+NoMethodError - undefined method `While' for #<StoriesController:0x007f8079cb4d40>:
+  app/controllers/stories_controller.rb:8:in `index'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/72abbb72debe49f3/variables" for ::1 at 2015-07-13 12:25:08 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 12:25:22 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 3.4ms)
+
+NoMethodError - undefined method `pop' for #<Story::ActiveRecord_Relation:0x007f807dd3bad0>:
+  activerecord (4.2.1) lib/active_record/relation/delegation.rb:136:in `method_missing'
+  activerecord (4.2.1) lib/active_record/relation/delegation.rb:99:in `method_missing'
+  app/controllers/stories_controller.rb:9:in `index'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/ef2dd22fe228893e/variables" for ::1 at 2015-07-13 12:25:23 -0600
+
+
+Started POST "/__better_errors/ef2dd22fe228893e/eval" for ::1 at 2015-07-13 12:25:33 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 12:28:41 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.7ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 3.1ms)
+
+NameError - undefined local variable or method `iterator_two' for #<StoriesController:0x007f807dbe1e50>:
+  app/controllers/stories_controller.rb:9:in `index'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/09637b88429b9773/variables" for ::1 at 2015-07-13 12:28:42 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 12:28:52 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.7ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (1.0ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 4.2ms)
+
+NoMethodError - undefined method `length' for nil:NilClass:
+  app/controllers/stories_controller.rb:12:in `index'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/nickschwaderer/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/daae18a5a165e17e/variables" for ::1 at 2015-07-13 12:28:53 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 12:29:04 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  Rendered stories/index.html.erb within layouts/application (43.9ms)
+Completed 200 OK in 98ms (Views: 87.2ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 12:29:04 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 12:29:04 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 12:29:04 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 12:29:04 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 12:29:04 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 12:29:04 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 12:29:04 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 12:29:04 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 12:36:26 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  Rendered stories/index.html.erb within layouts/application (58.2ms)
+Completed 200 OK in 116ms (Views: 111.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 12:36:27 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 12:36:27 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 12:36:27 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 12:36:27 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 12:36:27 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 12:36:27 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 12:36:27 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 12:36:27 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 12:36:42 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (1.0ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (1.1ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  Rendered stories/index.html.erb within layouts/application (61.5ms)
+Completed 200 OK in 139ms (Views: 132.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 12:36:42 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 12:36:42 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 12:36:42 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 12:36:42 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 12:36:42 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 12:36:42 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 12:36:42 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 12:36:42 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 12:37:08 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  Rendered stories/index.html.erb within layouts/application (42.5ms)
+Completed 200 OK in 86ms (Views: 81.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 12:37:08 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 12:37:08 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 12:37:08 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 12:37:08 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 12:37:08 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 12:37:08 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 12:37:08 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 12:37:08 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 12:37:36 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  Rendered stories/index.html.erb within layouts/application (96.3ms)
+Completed 200 OK in 143ms (Views: 139.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 12:37:36 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 12:37:36 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 12:37:36 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 12:37:36 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 12:37:36 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 12:37:36 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 12:37:36 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 12:37:36 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 12:37:36 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 12:37:43 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  Rendered stories/index.html.erb within layouts/application (111.8ms)
+Completed 200 OK in 160ms (Views: 156.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 12:37:43 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 12:37:43 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 12:37:43 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 12:37:43 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 12:37:43 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 12:37:43 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 12:37:43 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 12:37:43 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 12:37:43 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 12:39:23 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  Rendered stories/index.html.erb within layouts/application (93.2ms)
+Completed 200 OK in 145ms (Views: 141.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 12:39:23 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 12:39:23 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 12:39:23 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 12:39:23 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 12:39:23 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 12:39:23 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 12:39:23 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 12:39:23 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 12:39:23 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 12:39:29 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.8ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  Rendered stories/index.html.erb within layouts/application (95.9ms)
+Completed 200 OK in 144ms (Views: 138.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 12:39:29 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 12:39:29 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 12:39:29 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 12:39:29 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 12:39:29 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 12:39:29 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 12:39:29 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 12:39:29 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 12:39:30 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 12:39:37 -0600
+Processing by StoriesController#index as HTML
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')
+  Rendered stories/index.html.erb within layouts/application (77.9ms)
+Completed 200 OK in 128ms (Views: 124.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 12:39:37 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 12:39:37 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 12:39:37 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 12:39:37 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 12:39:37 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 12:39:37 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 12:39:37 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 12:39:37 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 12:39:37 -0600

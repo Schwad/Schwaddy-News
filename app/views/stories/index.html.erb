@@ -16,7 +16,17 @@
         <h5><%= story.points_text %></h5>
       </div>
       <div class="col-md-1">
-      <h4 style="margin-left:50px;"><%= image_tag("y.gif", size: "20")%></h4>
+
+
+        <% if story.originplace == "Hacker News" %>
+        <h4 style="margin-left:50px;">
+          <%= image_tag("y.gif", size: "20")%>
+        <% elsif story.originplace == "Reddit Webdev" %>
+        <h4 style="margin-left:45px;">
+          <%= image_tag( "reddit.png", size: "34")%>
+
+        <% end %>
+      </h4>
       </div>
       <div class="col-md-8"
         <% if story.is_new %>

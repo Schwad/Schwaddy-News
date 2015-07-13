@@ -9783,3 +9783,133 @@ Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 14:03:03 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 14:12:27 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (1.7ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.9ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  Rendered stories/index.html.erb within layouts/application (330.8ms)
+Completed 200 OK in 453ms (Views: 442.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for ::1 at 2015-07-13 14:12:27 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (1.3ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.9ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  Rendered stories/index.html.erb within layouts/application (129.8ms)
+Completed 200 OK in 183ms (Views: 173.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-13 14:12:56 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.5ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  Rendered stories/index.html.erb within layouts/application (103.9ms)
+Completed 200 OK in 151ms (Views: 147.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 14:12:57 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 14:12:57 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 14:12:57 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 14:12:57 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 14:12:57 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 14:12:57 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 14:12:57 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 14:12:57 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 14:12:57 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 14:12:57 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 14:13:40 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.7ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  Rendered stories/index.html.erb within layouts/application (87.8ms)
+Completed 200 OK in 135ms (Views: 129.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 14:13:41 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 14:13:41 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 14:13:41 -0600
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 14:13:41 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 14:13:41 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 14:13:41 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 14:13:41 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 14:13:41 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 14:13:41 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 14:13:41 -0600
+
+
+Started GET "/" for ::1 at 2015-07-13 14:13:48 -0600
+Processing by StoriesController#index as HTML
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" WHERE (originplace = 'Hacker News')
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE (originplace = 'Reddit Webdev')[0m
+  Rendered stories/index.html.erb within layouts/application (84.8ms)
+Completed 200 OK in 132ms (Views: 127.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.self-be822515c909fe56f672806cd14b0fbc7b7bd32163be1a20e70969e3007916ac.css?body=1" for ::1 at 2015-07-13 14:13:48 -0600
+
+
+Started GET "/assets/stories.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 14:13:48 -0600
+
+
+Started GET "/assets/stories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 14:13:48 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 14:13:48 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 14:13:48 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 14:13:48 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 14:13:48 -0600
+
+
+Started GET "/assets/reddit-0ab6b48741448f02527affaa287a31e9dfe280ef2ac5d5fdce5ea8137a5e8a63.png" for ::1 at 2015-07-13 14:13:48 -0600
+
+
+Started GET "/assets/y-1f382c1f3eb22c2097a5e579ca169e2bb9f0936255395a813fddb1c47fe9e975.gif" for ::1 at 2015-07-13 14:13:48 -0600
+
+
+Started GET "/assets/new-5d3567e8d2312ed4ee602850c9aa89319d1353a117b3bbace2af45ca07753f30.png" for ::1 at 2015-07-13 14:13:48 -0600

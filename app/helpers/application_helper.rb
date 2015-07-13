@@ -13,9 +13,15 @@ module ApplicationHelper
 
   def remove_all
     @old_stories = []
+    @old_scores = []
     if Story.all.count > 0
       Story.all.each do |story|
         @old_stories << story.source
+        if story.points_text != nil
+          @old_scores << story.points_text.split(" ")[0].to_i
+        else
+          puts "problem with #{story.source}"
+        end
       end
       Story.destroy_all
     end
@@ -31,18 +37,31 @@ module ApplicationHelper
     @new_story = true
 
     while iterator < @scores.length
+      change = 0
       if @old_stories.include?(@y_stories[0][iterator])
-        @new_story = false
-      else
-        @new_story = true
-      end
-      Story.create(
+        change = @scores[iterator].split(" ")[0].to_i - @old_scores[@old_stories.index(@y_stories[0][iterator])]
+        if change == nil
+          change = 0
+        end
+        Story.create(
           :source => @y_stories[0][iterator],
           :href => @y_stories[1][iterator],
           :points_text => @scores[iterator],
           :originplace => 'Hacker News',
-          :is_new => @new_story
+          :is_new => false,
+          :altering_of_the_points => change
         )
+      else
+        Story.create(
+          :source => @y_stories[0][iterator],
+          :href => @y_stories[1][iterator],
+          :points_text => @scores[iterator],
+          :originplace => 'Hacker News',
+          :is_new => true,
+          :altering_of_the_points => 0
+        )
+      end
+
       iterator += 1
     end
     puts "Ycombinator stories updated!"
@@ -85,7 +104,8 @@ module ApplicationHelper
           :href => @reddit_stories[1][iterator],
           :points_text => @reddit_scores[iterator],
           :originplace => 'Reddit Webdev',
-          :is_new => @new_story
+          :is_new => @new_story,
+          :altering_of_the_points => 0
         )
       iterator += 1
     end

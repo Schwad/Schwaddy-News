@@ -28,7 +28,7 @@
         <% end %>
       </h4>
       </div>
-      <div class="col-md-8"
+      <div class="col-md-7"
         <% if story.is_new %>
         style="background-color:#F8F8F8;"
         <% end %>
@@ -36,6 +36,14 @@
         <h4><%= link_to story.source, story.href %>
           <% if story.is_new %>
             <%= image_tag("new.png", size: "30") %>
+            <% else %>
+            <strong>
+            <% if story.altering_of_the_points > 0 %>
+              <span style="color:green;">(+<%= story.altering_of_the_points %>)</span>
+            <% elsif story.altering_of_the_points < 0 %>
+              <span style="color:red;">(<%= story.altering_of_the_points %>)</span>
+            <% end %>
+            </strong>
           <% end %>
         </h4>
     <!--   </div>

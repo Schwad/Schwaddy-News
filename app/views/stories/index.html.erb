@@ -11,22 +11,23 @@
 
 <% @stories.each do |story| %>
   <% unless story.source == nil %>
-    <div class="row"
-
-    >
-      <div class="col-md-2">
-        <h3><strong><%= story.points_text %></strong></h3>
+    <div class="row">
+      <div class="col-md-1">
+        <h5><%= story.points_text %></h5>
+      </div>
+      <div class="col-md-1">
+      <h4 style="margin-left:50px;"><%= image_tag("y.gif", size: "20")%></h4>
       </div>
       <div class="col-md-8"
         <% if story.is_new %>
         style="background-color:#F8F8F8;"
         <% end %>
       >
-        <h3><%= link_to story.source, story.href %>
+        <h4><%= link_to story.source, story.href %>
           <% if story.is_new %>
             <%= image_tag("new.png", size: "30") %>
           <% end %>
-        </h3>
+        </h4>
     <!--   </div>
       <div class="col-md-2"> -->
         <span style="color:#828282;">(<%= story.originplace %>)</span>

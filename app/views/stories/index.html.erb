@@ -1,3 +1,14 @@
+<div class="row" style="background-color:#FF6600;">
+  <div class="col-md-3">
+    <h3 style="margin-top:6px;"><strong>Schwaddy News.</strong></h3>
+  </div>
+  <div class="col-md-6">
+  </div>
+  <div class="col-md-3">
+    <p style="padding-top:7px;"<%= link_to "Source Code", "https://github.com/Schwad/Schwaddy-News" %> | <%= link_to "Blog", "http://theschwad.tumblr.com" %> | <%= mail_to "nicholas.schwaderer@gmail.com", "Contact" %> | <%= link_to "Donate","https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=J2MJ2TCC7EBXU&lc=US&item_name=PorkCasts&currency_code=USD&bn=PP%2dDonationsBF%3azuhqEnP%2epng%3aNonHosted" %></p>
+  </div>
+</div>
+
 <% @stories.each do |story| %>
   <% unless story.source == nil %>
     <div class="row">

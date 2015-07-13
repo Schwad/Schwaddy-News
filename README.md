@@ -11,6 +11,7 @@ LINE 1: SELECT "stories".* FROM "stories"
 Next steps:
 
 -add scraping for remainder of pages
+-scrape comments where possible
 -include in rake task
 -developing sorting formula and have heroku scheduler activated
 -update display w/ header/footer

@@ -94,17 +94,17 @@ module ApplicationHelper
     iterator = 0
     @new_story = true
     puts "Creating stories..."
-    while iterator < @scores.length
+    while iterator < @reddit_scores.length
       change = 0
       if @old_stories.include?(@reddit_stories[0][iterator])
-        change = @scores[iterator].split(" ")[0].to_i - @old_scores[@old_stories.index(@reddit_stories[0][iterator])]
+        change = @reddit_scores[iterator].split(" ")[0].to_i - @old_scores[@old_stories.index(@reddit_stories[0][iterator])]
         if change == nil
           change = 0
         end
         Story.create(
           :source => @reddit_stories[0][iterator],
           :href => @reddit_stories[1][iterator],
-          :points_text => @scores[iterator],
+          :points_text => @reddit_scores[iterator],
           :originplace => 'Reddit Webdev',
           :is_new => false,
           :altering_of_the_points => change
@@ -113,7 +113,7 @@ module ApplicationHelper
         Story.create(
           :source => @reddit_stories[0][iterator],
           :href => @reddit_stories[1][iterator],
-          :points_text => @scores[iterator],
+          :points_text => @reddit_scores[iterator],
           :originplace => 'Reddit Webdev',
           :is_new => true,
           :altering_of_the_points => 0
@@ -149,17 +149,17 @@ module ApplicationHelper
     iterator = 0
     @new_story = true
     puts "Creating stories..."
-    while iterator < @scores.length
+    while iterator < @techmeme_scores.length
       change = 0
       if @old_stories.include?(@techmeme_stories[0][iterator])
-        change = @scores[iterator].split(" ")[0].to_i - @old_scores[@old_stories.index(@techmeme_stories[0][iterator])]
+        change = @techmeme_scores[iterator].split(" ")[0].to_i - @old_scores[@old_stories.index(@techmeme_stories[0][iterator])]
         if change == nil
           change = 0
         end
         Story.create(
           :source => @techmeme_stories[0][iterator],
           :href => @techmeme_stories[1][iterator],
-          :points_text => @scores[iterator],
+          :points_text => @techmeme_scores[iterator],
           :originplace => 'Techmeme',
           :is_new => false,
           :altering_of_the_points => change
@@ -168,7 +168,7 @@ module ApplicationHelper
         Story.create(
           :source => @techmeme_stories[0][iterator],
           :href => @techmeme_stories[1][iterator],
-          :points_text => @scores[iterator],
+          :points_text => @techmeme_scores[iterator],
           :originplace => 'Techmeme',
           :is_new => true,
           :altering_of_the_points => 0
@@ -200,7 +200,4 @@ module ApplicationHelper
       @iterator -= 1
     end
   end
-
-
-
 end

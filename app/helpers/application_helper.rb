@@ -129,8 +129,12 @@ module ApplicationHelper
     @reddit_stories = [[],[]]
     @a.search('a.title.may-blank').each do |article|
       begin
+        story_link = article.to_s.scan(/href="(.*)" /)[0][0]
+        if story_link[0..2] == "/r/"
+          story_link = "http://www.reddit.com" + story_link
+        end
         @reddit_stories[0] << article.text
-        @reddit_stories[1] << article.to_s.scan(/href="(.*)." /)[0][0]
+        @reddit_stories[1] << story_link
       rescue
         binding.pry
       end

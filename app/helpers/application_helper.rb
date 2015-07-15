@@ -128,8 +128,12 @@ module ApplicationHelper
   def get_reddit_stories_and_links
     @reddit_stories = [[],[]]
     @a.search('a.title.may-blank').each do |article|
-      @reddit_stories[0] << article.text
-      @reddit_stories[1] << article.to_s.scan(/href="(.*)\/"/)[0]
+      begin
+        @reddit_stories[0] << article.text
+        @reddit_stories[1] << article.to_s.scan(/href="(.*)." /)[0][0]
+      rescue
+        binding.pry
+      end
     end
   end
 

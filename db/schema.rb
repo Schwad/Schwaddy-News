@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150713195331) do
+ActiveRecord::Schema.define(version: 20150815195903) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -27,6 +27,8 @@ ActiveRecord::Schema.define(version: 20150713195331) do
     t.text     "originplace"
     t.boolean  "is_new"
     t.integer  "altering_of_the_points"
+    t.text     "comment_name"
+    t.text     "comment_link"
   end
 
 end

@@ -55,7 +55,7 @@
       <div class="col-md-2"> -->
         <span style="color:#828282;">(<%= story.originplace %>) <%= story.points_text %>
           <% if story.originplace == "Hacker News" %>
-            <%= link_to story.comment_name, story.comment_link %>
+            <%= link_to story.comment_name, story.comment_link, {:style => 'color: #969696'} %>
           <% end %>
         </span>
       </div>

@@ -8,5 +8,14 @@ include TechMemeHelper
 
 module CollectedScrapers
 
+  def scrapes
+    update_ycombinator
+    update_reddit
+    update_techmeme
+    # update_longform
+    # update_thebrowser
+    # update_slashdot
+    # update_thefeature
+  end
 
 end

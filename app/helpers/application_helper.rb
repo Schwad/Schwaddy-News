@@ -5,14 +5,7 @@ module ApplicationHelper
 
   def updates_page
     remove_all
-    update_ycombinator
-    update_reddit
-    update_techmeme
-    # update_longform
-    # update_thebrowser
-    # update_slashdot
-    # update_thefeature
-
+    scrapes
   end
 
   def remove_all
@@ -30,6 +23,4 @@ module ApplicationHelper
       Story.destroy_all
     end
   end
-
-  #put everything you may need later down here
 end

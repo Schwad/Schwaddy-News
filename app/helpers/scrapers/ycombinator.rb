@@ -1,11 +1,50 @@
 module YCombinatorHelper
  def update_ycombinator
-    puts "Updating ycombinator stories..."
-    @a = Mechanize.new
-    @a = @a.get('https://news.ycombinator.com/')
+    initialize_ycombinator
     get_y_stories_and_links
     get_y_scores
     get_y_comments
+    build_ycombinator_stories
+  end
+
+  def initialize_ycombinator
+    puts "Updating ycombinator stories..."
+    @a = Mechanize.new
+    @a = @a.get('https://news.ycombinator.com/')
+  end
+
+  def get_y_stories_and_links
+    @y_stories = [[],[]]
+    @a.links_with(:href => /http/).each do |link|
+      unless link.href.include?('ycombinator')
+        @y_stories[0] << link.text
+        @y_stories[1] << link.href
+      end
+    end
+  end
+
+  def get_y_scores
+    @scores = []
+    @a.search('span.score').each do |score|
+      @scores << score.text
+    end
+  end
+
+  def get_y_comments
+    puts "pulling in ycombinator comments..."
+    @y_comments = [[],[]]
+    @comment_skip = true
+    @a.links_with(:text => /comments/).each do |comment|
+      if @comment_skip == true
+        @comment_skip = false
+      else
+        @y_comments[0] << comment.text
+        @y_comments[1] << "https://news.ycombinator.com/#{comment.href}"
+      end
+    end
+  end
+
+  def build_ycombinator_stories
     iterator = 0
     @new_story = true
 
@@ -42,36 +81,5 @@ module YCombinatorHelper
       iterator += 1
     end
     puts "Ycombinator stories updated!"
-  end
-
-  def get_y_stories_and_links
-    @y_stories = [[],[]]
-    @a.links_with(:href => /http/).each do |link|
-      unless link.href.include?('ycombinator')
-        @y_stories[0] << link.text
-        @y_stories[1] << link.href
-      end
-    end
-  end
-
-  def get_y_scores
-    @scores = []
-    @a.search('span.score').each do |score|
-      @scores << score.text
-    end
-  end
-
-  def get_y_comments
-    puts "pulling in ycombinator comments..."
-    @y_comments = [[],[]]
-    @comment_skip = true
-    @a.links_with(:text => /comments/).each do |comment|
-      if @comment_skip == true
-        @comment_skip = false
-      else
-        @y_comments[0] << comment.text
-        @y_comments[1] << "https://news.ycombinator.com/#{comment.href}"
-      end
-    end
   end
 end

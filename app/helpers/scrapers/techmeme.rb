@@ -1,11 +1,40 @@
 module TechMemeHelper
 
   def update_techmeme
+    initialize_techmeme
+    get_techmeme_stories_and_links
+    get_techmeme_scores
+    build_techmeme_stories
+  end
+
+  def initialize_techmeme
     puts "Updating techmeme...."
     @a = Mechanize.new
     @a = @a.get('http://www.techmeme.com/river')
-    get_techmeme_stories_and_links
-    get_techmeme_scores
+  end
+
+  def get_techmeme_stories_and_links
+    @techmeme_stories = [[],[]]
+    @iterator = 3
+    @a.links[17..47].each do |article|
+      if @iterator % 2 == 1
+        @techmeme_stories[0] << article.text
+        @techmeme_stories[1] << article.href
+      end
+      @iterator += 1
+    end
+  end
+
+  def get_techmeme_scores
+    @techmeme_scores = []
+    @iterator = @techmeme_stories[0].length
+    while @iterator >= 0
+      @techmeme_scores << "#{@iterator} points"
+      @iterator -= 1
+    end
+  end
+
+  def build_techmeme_stories
     iterator = 0
     @new_story = true
     puts "Creating stories..."
@@ -37,27 +66,5 @@ module TechMemeHelper
       iterator += 1
     end
     puts "techmeme updated!"
-
-  end
-
-  def get_techmeme_stories_and_links
-    @techmeme_stories = [[],[]]
-    @iterator = 3
-    @a.links[17..47].each do |article|
-      if @iterator % 2 == 1
-        @techmeme_stories[0] << article.text
-        @techmeme_stories[1] << article.href
-      end
-      @iterator += 1
-    end
-  end
-
-  def get_techmeme_scores
-    @techmeme_scores = []
-    @iterator = @techmeme_stories[0].length
-    while @iterator >= 0
-      @techmeme_scores << "#{@iterator} points"
-      @iterator -= 1
-    end
   end
 end

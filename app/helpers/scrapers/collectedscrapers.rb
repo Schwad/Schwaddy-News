@@ -7,7 +7,7 @@ include YCombinatorHelper
 include TechMemeHelper
 
 module CollectedScrapers
-
+  #this is a touch refactored, can be DRY'd up but do not want to overdo it because of how tenuous scraping can be.
   def scrapes
     update_ycombinator
     update_reddit

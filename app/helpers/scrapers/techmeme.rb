@@ -1,0 +1,3 @@
+module TechMemeHelper
+
+end

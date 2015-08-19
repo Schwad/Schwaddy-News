@@ -1,3 +1,6 @@
+require "#{Rails.root}/app/helpers/scrapers/collectedscrapers"
+include CollectedScrapers
+
 module ApplicationHelper
 
   def updates_page
@@ -227,4 +230,6 @@ module ApplicationHelper
       @iterator -= 1
     end
   end
+
+  #put everything you may need later down here
 end

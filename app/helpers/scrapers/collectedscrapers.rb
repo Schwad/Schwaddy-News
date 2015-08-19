@@ -1,6 +1,6 @@
-require "#{Rails.root}/app/helpers/application_helper/scrapers/techmeme"
-require "#{Rails.root}/app/helpers/application_helper/scrapers/reddit"
-require "#{Rails.root}/app/helpers/application_helper/scrapers/ycombinator"
+require "#{Rails.root}/app/helpers/scrapers/techmeme"
+require "#{Rails.root}/app/helpers/scrapers/reddit"
+require "#{Rails.root}/app/helpers/scrapers/ycombinator"
 
 include RedditHelper
 include YCombinatorHelper
